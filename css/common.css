@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* ----- GLOBAL ELEMENTS ----- */
+html, body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 90%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #e3e3e3;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+h2, h3, h5 {
+	color: #00cc00;
+}
+
+h5 {
+	white-space: nowrap;
+}
+
+/* ----- GLOBAL THEME ----- */
+
+.global-colour-1 {
+	color: #00cc00;
+}
+
+.global-colour-2 {
+	color: black;
+}
+
+.bg-lightplus {
+	background-color: #ecf0f3!important;
+}
+
+.fas:hover,.fab:hover {
+	color: #00cc00;
+}
+
+.shadow-card {
+	margin: 10px;
+	padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
+}
+
+/* ----- OTHER ----- */
+
+.img-responsive {
+	width:100%;
+	object-fit: cover;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.hMobile {
+	font-size: 2.5rem;
+}

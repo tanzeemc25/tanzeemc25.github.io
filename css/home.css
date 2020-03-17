@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+
+body {
+	background-image: url("../img/background/wood.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+	body {
+		background-image: none;
+	}
+}

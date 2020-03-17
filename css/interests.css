@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+
+.element {
+  transform:translate3d(0,0,0);
+  -webkit-transform:translate3d(0,0,0);
+  -moz-transform:translate3d(0,0,0);
+}
+
+h2 {
+  margin: 5px 0px 5px 0px;
+}
+
+.checkbox-inline {
+  margin: 0px 15px 5px 0px;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.poster {
+  float: left;
+}
+
+.posterImg {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+  text-align: center;
+}
+
+.poster:hover img {
+  opacity: 0.7;
+}
+
+.poster:hover .middle {
+  opacity: 0.9;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 20px 10px;
+}

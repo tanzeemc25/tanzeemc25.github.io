@@ -1,0 +1,14 @@
+ul.check {
+	list-style: none;
+}
+
+ul.check li:before {
+	content: '✓  ';
+	color: #00cc00;
+    margin-left: -1em;
+    margin-right: .100em;
+}
+
+.border {
+	border-color: #dee2e6 !important;
+}
