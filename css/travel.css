@@ -1,0 +1,27 @@
+#control {
+	width: 455px;
+	float: left;
+	height: 100%;
+}
+
+#map {
+	margin-left: 455px;
+	height: 100%;
+	position: fixed !important;
+	width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#vial-preview {
+	text-align: center;
+}
+
+.vial-box {
+	margin: 0px 0px 0px 5px;
+	float: left;
+}
+
+.space {
+	padding: 10px;
+}
