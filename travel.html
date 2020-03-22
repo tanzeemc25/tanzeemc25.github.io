@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>Travel | Tanzeem Chowdhury</title>
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+	</head>
+	<body>
+		
+		<!-- VIAL CONTROLS -->
+		<div id="control">
+
+			<!-- VIAL FILTERS -->
+			<div class="card">
+				<div class="filters clear">
+					<div class="filter-group">
+						<h2>Countries</h2>
+						<div id="country"><!-- TBD/JS --></div>
+					</div>
+					<div class="filter-group">
+						<h2>Trips</h2>
+						<div id="trip"><!-- TBD/JS --></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- VIAL PREVIEW -->
+			<div id="vial-preview" class="card">
+			</div>
+
+			<!-- VIAL GRID -->
+			<div class="card">
+				<div id="vial-grid" class="grid clear"><!-- TBD/JS --></div>
+			</div>
+
+		</div>
+
+		<!-- MAP -->
+		<div id="map">
+		</div>
+
+		<script type="text/javascript" src="./js/lib/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="./js/lib/isotope.pkgd.min.js"></script>
+
+		<script type="text/javascript" src="./js/database.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs7lMxZxOPuP_S8fEwVgJKQfSnJlQ2csU&callback=init"></script>
+
+	</body>
+</html>
