@@ -8,10 +8,23 @@ body {
 
 a:link,
 a:visited,
-a:hover,
 a:active {
   text-decoration: none;
   color: black;
 }
 
+h2 {
+  color: green;
+}
+
+a i:hover {
+  text-decoration: none;
+  color: green;
+}
+
 p.socialmedia a { margin: 2px; }
+
+.content-card {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
