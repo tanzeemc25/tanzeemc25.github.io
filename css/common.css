@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-* { box-sizing: border-box; }
-
-html, body {
-	font-family: 'Raleway', sans-serif;
-	font-size: 90%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-  color: black;
-}
-
-p.socialmedia a { margin: 2px; }
-
 .clear:after {
 	content: '';
 	display: block;

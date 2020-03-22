@@ -120,7 +120,7 @@ function appendVial(m) {
 
 	var vialDiv = 
 		'<div class="vial-box ' + filters + '">' + 
-			'<img id="vial' + currentId + '" src="./img/vials/' + imgFile + '" height="75" width="75">' + 
+			'<img id="vial' + currentId + '" src="../img/vials/' + imgFile + '" height="75" width="75">' + 
 		'</div>'
 	;
 
