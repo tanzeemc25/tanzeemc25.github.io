@@ -13,12 +13,8 @@
     z-index: 100;
 }
 
-#vial-preview {
-	text-align: center;
-}
-
 .vial-box {
-	margin: 0px 0px 0px 5px;
+	margin: 5px 0px 0px 5px;
 	float: left;
 }
 

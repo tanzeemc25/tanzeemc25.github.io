@@ -8,20 +8,6 @@ html, body {
 	padding: 0;
 }
 
-.clear:after {
-	content: '';
-	display: block;
-	clear: both;
-}
-
-.filter-group:not(:first-child) {
-	margin: 0px 0px 0px 50px;
-}
-
-.filter-group {
-	float: left;
-}
-
 .card {
 	margin: 10px;
 	padding: 15px;

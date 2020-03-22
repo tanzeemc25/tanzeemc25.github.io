@@ -3,7 +3,10 @@
 	<head>
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<meta charset="utf-8">
+
 		<title>Travel | Tanzeem Chowdhury</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/lib/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/common.css">
 		<link rel="stylesheet" type="text/css" href="../css/travel.css">
 	</head>
@@ -12,29 +15,44 @@
 		<!-- VIAL CONTROLS -->
 		<div id="control">
 
-			<!-- VIAL FILTERS -->
+			<!-- VIAL FILTERS CARD -->
 			<div class="card">
-				<a href="./home.html">< Back</a>
+
+				<!-- INFO -->
+				<a href="./home.html">&lt; Back</a>
+				<br>
+				*Note: This page works best on a desktop web broswer. If you are using a mobile browser, try viewing this page in 'Desktop Mode'.
 				<hr>
+				
+				<!-- VIAL FILTERS -->
 				<div class="filters clear">
-					<div class="filter-group">
-						<h2>Countries</h2>
-						<div id="country"><!-- TBD/JS --></div>
-					</div>
-					<div class="filter-group">
-						<h2>Trips</h2>
-						<div id="trip"><!-- TBD/JS --></div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<h4>Countries</h4>
+							<div id="country"><!-- TBD/JS --></div>
+						</div>
+						<div class="col-md-6">
+							<h4>Trips</h4>
+							<div id="trip"><!-- TBD/JS --></div>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<!-- VIAL PREVIEW -->
-			<div id="vial-preview" class="card">
-			</div>
-
-			<!-- VIAL GRID -->
+			<!-- VIAL PREVIEW CARD -->
 			<div class="card">
-				<div id="vial-grid" class="grid clear"><!-- TBD/JS --></div>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="vial-preview" class="text-center"><!-- TBD/JS --></div>
+					</div>
+				</div>
+			</div>
+			
+
+			<!-- VIAL GRID CARD -->
+			<div class="card">
+				<div id="vial-grid" class="grid"><!-- TBD/JS --></div>
 			</div>
 
 		</div>
