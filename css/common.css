@@ -16,12 +16,12 @@ a:active {
 }
 
 h2 {
-  color: green;
+  color: #00cc00;
 }
 
 a i:hover {
   text-decoration: none;
-  color: green;
+  color: #00cc00;
 }
 
 .card {
@@ -32,5 +32,5 @@ a i:hover {
 }
 
 .global-colour-1 {
-	color: green;
+	color: #00cc00;
 }
