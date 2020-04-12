@@ -15,8 +15,8 @@ a:active {
   color: black;
 }
 
-h2 {
-  color: #00cc00;
+h2, h4, h6 {
+	color: #00cc00;
 }
 
 a i:hover {
