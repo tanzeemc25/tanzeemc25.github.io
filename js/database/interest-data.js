@@ -22,6 +22,7 @@ posters = [
 	{ "file": "dc-extended-universe.jpg", "filters": "comic movie", "label": "DC Extended Universe", "link": "https://en.wikipedia.org/wiki/DCEU" },
 	{ "file": "dirilis-ertugrul.jpg", "filters": "tv history", "label": "Dirilis Ertugrul", "link": "https://en.wikipedia.org/wiki/Dirili%C5%9F:_Ertu%C4%9Frul" },
 	{ "file": "dragon-ball.jpg", "filters": "tv", "label": "Dragon Ball Series", "link": "https://en.wikipedia.org/wiki/Dragon_Ball" },
+	{ "file": "godfather.jpg", "filters": "movie", "label": "The Godfather Trilogy", "link": "https://en.wikipedia.org/wiki/The_Godfather_(film_series)" },
 	{ "file": "inglorious-basterds.jpg", "filters": "movie history", "label": "Inglorious Basterds", "link": "https://en.wikipedia.org/wiki/Inglourious_Basterds" },
 	{ "file": "killer-instinct.jpg", "filters": "vg", "label": "Killer Instinct", "link": "https://en.wikipedia.org/wiki/Killer_Instinct_(1994_video_game)" },
 	{ "file": "kims-convenience.jpg", "filters": "tv", "label": "Kim's Convenience", "link": "https://en.wikipedia.org/wiki/Kim%27s_Convenience" },
