@@ -35,9 +35,12 @@ function appendToGrid(v) {
 	var link = v["link"] == "" ? "javascript:void(0)" : v["link"];
 	var lbl = v["label"]
 
+	// Poster size
+	var posterSize = screen.width <= 768 ? screen.width/2 : 200;
+
 	var posterDiv = 
 		'<div class="poster ' + filters + '">' + 
-			'<img src="../img/interests/' + fileName + '" class="posterImg" height="200" width="200">' +  
+			'<img src="../img/interests/' + fileName + '" class="posterImg" height="' + posterSize + '" width="' + posterSize + '">' +  
 			'<div class="middle">' +
 				'<div class="text">' + 
 					'<a href="' + link + '" target="_blank">' + lbl + '</a>' + 
