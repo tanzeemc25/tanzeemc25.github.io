@@ -42,7 +42,7 @@ function appendToGrid(v) {
 		return check;
 	};
 
-	var posterSize = window.mobileCheck() ? (window.width-50)/3 : 200;
+	var posterSize = window.mobileCheck() ? (window.innerWidth - 15)/2 : 200;
 
 	var posterDiv = 
 		'<div class="poster ' + filters + '">' + 
