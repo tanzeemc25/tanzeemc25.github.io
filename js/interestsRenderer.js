@@ -1,7 +1,11 @@
 $(function() {
 
 	$.each(filters, function( i, v ) {
-    	appendToFilters(v);
+    	appendToFilters(v, "filtersMain");
+	});
+
+	$.each(subFilters, function( i, v ) {
+    	appendToFilters(v, "filtersSub");
 	});
 
     $.each(posters, function( i, v ) {
@@ -61,7 +65,7 @@ function appendToGrid(v) {
 }
 
 
-function appendToFilters(v) {
+function appendToFilters(v, filterContainerId) {
 
 	var filter = v["filter"];
 	var text = v["text"];
@@ -72,5 +76,5 @@ function appendToFilters(v) {
 		'</label>'
 	;
 
-	$("#filtersMain").append(filterCheckBox);
+	$("#" + filterContainerId).append(filterCheckBox);
 }
