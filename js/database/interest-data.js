@@ -13,6 +13,7 @@ subFilters = [
 	{ "filter": "history", "text": "History" },
 	{ "filter": "marvel", "text": "Marvel" },
 	{ "filter": "netflix", "text": "Netflix" },
+	{ "filter": "sport", "text": "Sports" },
 ]
 
 posters = [
@@ -52,7 +53,7 @@ posters = [
 	{ "file": "lord-of-the-rings.jpg", "filters": "movie", "label": "Lord of the Rings Series", "link": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)" },
 	{ "file": "lost.jpg", "filters": "tv", "label": "Lost", "link": "https://en.wikipedia.org/wiki/Lost_(TV_series)" },
 	{ "file": "mandalorian.jpg", "filters": "tv", "label": "The Mandalorian", "link": "https://en.wikipedia.org/wiki/The_Mandalorian" },
-	{ "file": "maple-leafs.jpg", "filters": "misc", "label": "Toronto Maple Leafs", "link": "https://www.nhl.com/mapleleafs" },
+	{ "file": "maple-leafs.jpg", "filters": "misc sport", "label": "Toronto Maple Leafs", "link": "https://www.nhl.com/mapleleafs" },
 	{ "file": "marvel-cinematic-universe.jpg", "filters": "movie marvel", "label": "Marvel Cinematic Universe", "link": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe" },
 	{ "file": "master-of-none.jpg", "filters": "tv netflix", "label": "Master of None", "link": "https://en.wikipedia.org/wiki/Master_of_None" },
 	{ "file": "matrix.jpg", "filters": "movie", "label": "The Matrix Series", "link": "https://en.wikipedia.org/wiki/The_Matrix_(franchise)" },
@@ -68,7 +69,7 @@ posters = [
 	{ "file": "power-rangers.jpg", "filters": "tv", "label": "Power Rangers", "link": "https://en.wikipedia.org/wiki/Power_Rangers" },
 	{ "file": "prince-of-persia.jpg", "filters": "vg", "label": "Price of Persia Series", "link": "https://en.wikipedia.org/wiki/Prince_of_Persia" },
 	{ "file": "priosn-break.jpg", "filters": "tv", "label": "Prison Break", "link": "https://en.wikipedia.org/wiki/Prison_Break" },
-	{ "file": "raptors.jpg", "filters": "misc", "label": "Toronto Raptors", "link": "https://www.nba.com/raptors/" },
+	{ "file": "raptors.jpg", "filters": "misc sport", "label": "Toronto Raptors", "link": "https://www.nba.com/raptors/" },
 	{ "file": "rick-and-morty.jpg", "filters": "tv", "label": "Rick and Morty", "link": "https://en.wikipedia.org/wiki/Rick_and_Morty" },
 	{ "file": "silicon-valley.jpg", "filters": "tv", "label": "Silicon Valley", "link": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)" },
 	{ "file": "smallville.jpg", "filters": "tv dc", "label": "Smallville", "link": "https://en.wikipedia.org/wiki/Smallville" },
