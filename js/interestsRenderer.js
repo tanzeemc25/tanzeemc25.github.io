@@ -71,7 +71,7 @@ function appendToFilters(v, filterContainerId) {
 	var text = v["text"];
 
 	var filterCheckBox = 
-		'<label class="checkbox-inline">' + 
+		'<label class="checkbox-inline h4">' + 
 			'<input type="checkbox" name="filter" value="' + filter + '"> ' + text + 
 		'</label>'
 	;
