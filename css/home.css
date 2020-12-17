@@ -2,6 +2,7 @@
 
 body {
 	background-image: url("../img/background/wood.jpg");
+	background-repeat: repeat;
 	background-color: white;
 }
 
