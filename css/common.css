@@ -6,6 +6,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #e3e3e3;
 }
 
 a:link,
@@ -15,13 +16,8 @@ a:active {
   color: black;
 }
 
-h2, h4, h6 {
+h2, h3, h5 {
 	color: #00cc00;
-}
-
-a i:hover {
-  text-decoration: none;
-  color: #00cc00;
 }
 
 .card {
@@ -37,4 +33,17 @@ a i:hover {
 
 .global-colour-2 {
 	color: black;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.img-responsive {
+	width:100%;
+	object-fit: cover;
+}
+
+.fas:hover,.fab:hover {
+	color: #00cc00;
 }
