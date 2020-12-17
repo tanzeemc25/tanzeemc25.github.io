@@ -52,7 +52,7 @@ function appendToGrid(v) {
 	var mobileGridWidthNum = 3;
 	var mobileGridTotalPad = 5 * (mobileGridWidthNum + 1);
 	var posterSize = window.mobileCheck() ? (window.innerWidth - mobileGridTotalPad)/mobileGridWidthNum : 200;
-	var textSize = window.mobileCheck() ? "h1" : "h4";
+	var textSize = window.mobileCheck() ? "hMobile" : "h4";
 
 	var posterDiv = 
 		'<div class="poster ' + filters + '">' + 
@@ -73,7 +73,7 @@ function appendToFilters(v, filterContainerId) {
 
 	var filter = v["filter"];
 	var text = v["text"];
-	var textSize = window.mobileCheck() ? "h1" : "h4";
+	var textSize = window.mobileCheck() ? "hMobile" : "h4";
 
 	var filterCheckBox = 
 		'<label class="checkbox-inline ' + textSize + '">' + 

@@ -51,3 +51,7 @@ h2, h3, h5 {
 .no-wrap {
 	white-space: nowrap;
 }
+
+.hMobile {
+	font-size: 5.0rem;
+}
