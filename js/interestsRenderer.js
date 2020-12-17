@@ -55,7 +55,7 @@ function appendToGrid(v) {
 			'<img src="../img/interests/' + fileName + '" class="posterImg" height="' + posterSize + '" width="' + posterSize + '">' +  
 			'<div class="middle">' +
 				'<div class="text">' + 
-					'<a href="' + link + '" target="_blank">' + lbl + '</a>' + 
+					'<a href="' + link + '" target="_blank" class="h3">' + lbl + '</a>' + 
 				'</div>' +
 			'</div>' +
       	'</div>'
