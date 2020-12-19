@@ -1,11 +1,15 @@
 $(function() {
 
-	$.each(filters, function( i, v ) {
-    	appendToFilters(v, "filtersMain");
+	$.each(filtersMedia, function( i, v ) {
+    	appendToFilters(v, "filtersMedia");
 	});
 
-	$.each(subFilters, function( i, v ) {
-    	appendToFilters(v, "filtersSub");
+	$.each(filtersFranchise, function( i, v ) {
+    	appendToFilters(v, "filtersFranchise");
+	});
+
+	$.each(filtersOther, function( i, v ) {
+    	appendToFilters(v, "filtersOther");
 	});
 
     $.each(posters, function( i, v ) {

@@ -9,7 +9,7 @@ h2 {
 }
 
 .checkbox-inline {
-  margin: 0px 15px 0px 0px;
+  margin: 0px 15px 5px 0px;
 }
 
 .clear:after {
@@ -21,10 +21,6 @@ h2 {
 .poster {
   margin: 5px 0px 0px 5px;
   float: left;
-}
-
-#filtersContainer {
-  margin: 15px 0px 0px 0px;
 }
 
 .posterImg {
