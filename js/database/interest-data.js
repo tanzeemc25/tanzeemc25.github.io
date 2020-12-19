@@ -130,6 +130,7 @@ posters = [
 	{ "file": "thor-film.png", "filters": "movie marvel mcu", "label": "Thor Film Series", "link": "https://en.wikipedia.org/wiki/Thor_(film)" },
 	{ "file": "thousand-splendid-suns.png", "filters": "book politics", "label": "A Thousand Splendid Suns", "link": "https://en.wikipedia.org/wiki/A_Thousand_Splendid_Suns" },
 	{ "file": "titans.png", "filters": "tv dc", "label": "Titans", "link": "https://en.wikipedia.org/wiki/Titans_(2018_TV_series)" },
+	{ "file": "troy-film.png", "filters": "movie history", "label": "Troy [2004]", "link": "https://www.imdb.com/title/tt0332452/" },
 	{ "file": "uncanny-xmen.png", "filters": "comic marvel", "label": "Uncanny X-Men Series [1963]", "link": "https://en.wikipedia.org/wiki/Uncanny_X-Men" },
 	{ "file": "venom-lethal-protector.png", "filters": "comic marvel", "label": "Venom: Lethal Protector [1993]", "link": "https://en.wikipedia.org/wiki/Venom:_Lethal_Protector" },
 	{ "file": "vikings.png", "filters": "tv history", "label": "Vikings", "link": "https://en.wikipedia.org/wiki/Vikings_(2013_TV_series)" },
