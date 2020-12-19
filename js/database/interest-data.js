@@ -22,7 +22,6 @@ filtersOther = [
 	{ "filter": "comedy", "text": "Comedy" },
 	{ "filter": "history", "text": "History" },
 	{ "filter": "politics", "text": "Politics" },
-	{ "filter": "religion", "text": "Religion" },
 	{ "filter": "scifi", "text": "Sci-fi" },
 ]
 
@@ -33,7 +32,7 @@ posters = [
 	{ "file": "animal-farm.png", "filters": "book politics", "label": "Animal Farm", "link": "https://en.wikipedia.org/wiki/Animal_Farm" },
 	{ "file": "arrested-development.png", "filters": "tv comedy", "label": "Arrested Development", "link": "https://en.wikipedia.org/wiki/Arrested_Development" },
 	{ "file": "assassins-creed.png", "filters": "vg", "label": "Assassin's Creed Series", "link": "https://en.wikipedia.org/wiki/Assassin's_Creed" },
-	{ "file": "autobiogaphy-malcolm-x.png", "filters": "book history politics religion", "label": "The Autobiogaphy of Malcolm X", "link": "https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X" },
+	{ "file": "autobiogaphy-malcolm-x.png", "filters": "book history politics", "label": "The Autobiogaphy of Malcolm X", "link": "https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X" },
 	{ "file": "avatar-the-last-airbender.png", "filters": "tv", "label": "Avatar: The Last Airbender", "link": "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender" },
 	{ "file": "avengers-film.png", "filters": "movie marvel mcu", "label": "Avengers Film Series", "link": "https://en.wikipedia.org/wiki/Avengers:_Endgame" },
 	{ "file": "batman-arkham.png", "filters": "vg dc", "label": "Batman: Arkham Series", "link": "https://en.wikipedia.org/wiki/Batman:_Arkham" },
@@ -76,7 +75,7 @@ posters = [
 	{ "file": "master-of-none.png", "filters": "tv comedy", "label": "Master of None", "link": "https://en.wikipedia.org/wiki/Master_of_None" },
 	{ "file": "matrix.png", "filters": "movie", "label": "The Matrix Series", "link": "https://en.wikipedia.org/wiki/The_Matrix_(franchise)" },
 	{ "file": "megaman-battle-network.png", "filters": "vg", "label": "Megaman Battle Network Series", "link": "https://en.wikipedia.org/wiki/Mega_Man_Battle_Network" },
-	{ "file": "messiah.png", "filters": "tv politics religion", "label": "Messiah", "link": "https://en.wikipedia.org/wiki/Messiah_(American_TV_series)" },
+	{ "file": "messiah.png", "filters": "tv politics", "label": "Messiah", "link": "https://en.wikipedia.org/wiki/Messiah_(American_TV_series)" },
 	{ "file": "mmpr-boom-studios.png", "filters": "comic pr", "label": "MMPR Series [2016]", "link": "https://en.wikipedia.org/wiki/Power_Rangers_(Boom!_Studios)" },
 	{ "file": "mmpr-justice-league.png", "filters": "comic dc pr", "label": "MMPR / Justic League Crossover Comic Event", "link": "https://en.wikipedia.org/wiki/Justice_League/Mighty_Morphin_Power_Rangers" },
 	{ "file": "mmpr.png", "filters": "tv pr", "label": "Mighty Morphin Power Rangers Series [1993]", "link": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers" },
