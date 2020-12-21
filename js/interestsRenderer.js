@@ -58,9 +58,11 @@ function appendToGrid(v) {
 	var posterSize = window.mobileCheck() ? (window.innerWidth - mobileGridTotalPad)/mobileGridWidthNum : 200;
 	var textSize = window.mobileCheck() ? "hMobile" : "h4";
 
+	var graphic = '<img src="../img/interests/' + fileName + '" class="posterImg" height="' + posterSize + '" width="' + posterSize + '">';
+
 	var posterDiv = 
 		'<div class="poster ' + filters + '">' + 
-			'<img src="../img/interests/' + fileName + '" class="posterImg" height="' + posterSize + '" width="' + posterSize + '">' +  
+			graphic +  
 			'<div class="middle">' +
 				'<div class="text">' + 
 					'<a href="' + link + '" target="_blank" class="' + textSize + '">' + lbl + '</a>' + 
