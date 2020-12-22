@@ -2,10 +2,10 @@
 
 body {
 	background-image: url("../img/background/wood.jpg");
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
 }
 
 p.socialmedia a { margin: 2px; }
