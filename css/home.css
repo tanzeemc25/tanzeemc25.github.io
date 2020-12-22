@@ -8,6 +8,12 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 576px) {
+	body {
+		background-image: none;
+	}
+}
+
 p.socialmedia a { margin: 2px; }
 
 .content-card {
