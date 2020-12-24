@@ -8,3 +8,7 @@ ul.check li:before {
     margin-left: -1em;
     margin-right: .100em;
 }
+
+.border {
+	border-color: #dee2e6 !important;
+}
