@@ -7,8 +7,9 @@ function init() {
 		document.getElementById('map'), 
 		{ 
 			zoom: 3,
-			center: {lat: 51.518731657437755, lng: -0.13044319655846356}, // London, UK 
-			//center: {lat: 45.250, lng: -76.080} // Ottawa 
+			center: {lat: 40.4289843454128, lng: -3.703575999075211}, // Madrid, Spain
+			//center: {lat: 51.518731657437755, lng: -0.13044319655846356}, // London, UK 
+			//center: {lat: 45.250, lng: -76.080}, // Ottawa 
 		}
 	);
 
