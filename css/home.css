@@ -13,14 +13,3 @@ body {
 		background-image: none;
 	}
 }
-
-p.socialmedia a { margin: 2px; }
-
-.content-card {
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-h5 {
-	white-space: nowrap;
-}

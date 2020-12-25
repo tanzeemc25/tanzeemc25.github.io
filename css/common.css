@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+/* ----- GLOBAL ELEMENTS ----- */
 html, body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 90%;
@@ -18,14 +19,10 @@ a:active {
 
 h2, h3, h5 {
 	color: #00cc00;
+	white-space: nowrap;
 }
 
-.card {
-	margin: 10px;
-	padding: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    opacity: 0.8;
-}
+/* ----- GLOBAL THEME ----- */
 
 .global-colour-1 {
 	color: #00cc00;
@@ -35,17 +32,22 @@ h2, h3, h5 {
 	color: black;
 }
 
-.right-align {
-	text-align: right;
+.fas:hover,.fab:hover {
+	color: #00cc00;
 }
+
+.shadow-card {
+	margin: 10px;
+	padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
+}
+
+/* ----- OTHER ----- */
 
 .img-responsive {
 	width:100%;
 	object-fit: cover;
-}
-
-.fas:hover,.fab:hover {
-	color: #00cc00;
 }
 
 .no-wrap {

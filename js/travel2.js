@@ -1,3 +1,7 @@
+// Global vars to map place items to their correpsonding markers
+arrMarkers = {};
+currentId = 0;
+
 // Callback occurs from Google API script async defer
 function init() {
 
@@ -13,10 +17,35 @@ function init() {
 		}
 	);
 
-	// Add all markers and corresponding vials to the grid
+	// Add all items and plot their markers
 	$.each(markers, function( i, v ) {		
+
 		var newMarker = appendMarker(v, map, infoWindow);
+		appendList(v);
+
+		arrMarkers["place" + currentId] = newMarker;
+		currentId += 1;
 	});
+
+	// List item click - trigger and pan to corresponding marker
+	$( ".place-card" ).click(function() {
+		var marker = arrMarkers[$(this).attr("id")];
+		new google.maps.event.trigger( marker, 'click' );
+		$('#placelist').collapse('hide');
+	});
+}
+
+
+function appendList(m) {
+
+	var markup = 
+		'<div id="place' + currentId + '" class="place-card col-xl-2 col-lg-3 col-md-4 col-sm-6 mt-2 pl-1 pr-1">' + 
+			'<div class="card h-100 p-2">' +
+				m.title + "<br>" + m.date +
+			'</div>' +
+		'</div>';
+
+	$("#placelist").append(markup);
 }
 
 
