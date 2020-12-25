@@ -19,6 +19,9 @@ a:active {
 
 h2, h3, h5 {
 	color: #00cc00;
+}
+
+h5 {
 	white-space: nowrap;
 }
 
