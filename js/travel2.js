@@ -23,14 +23,14 @@ function init() {
 function appendMarker(m, map, iw) {
 
 	var mTitle = m.title;
-	var mCategory = m.category;
 	const latLong = {lat: m.lat, lng: m.lng};
+	var iconUrl = categories[m.category].icon;
 
 	const marker = new google.maps.Marker({
 		position: latLong,
-		label: mCategory,
 		map: map,
-		title: mTitle
+		title: mTitle,
+		icon: iconUrl,
 	});
 
 	marker.addListener('click', function() {

@@ -72,11 +72,13 @@ var markers = [
 	{title: "Times Square - Manhattan, New York, USA", lat: 40.757987160263404, lng: -73.9855417801456, date: "2013-01", category: "S" },
 ];
 
+var iconBase = "https://maps.google.com/mapfiles/ms/icons/";
+
 var categories = {
-	"A": {title: "Attraction", color: "U" },
-	"C": {title: "City", color: "U" },
-	"O": {title: "Outdoors", color: "U" },
-	"R": {title: "Resort", color: "U" },
-	"S": {title: "Site / Landmark", color: "U" },
-	"U": {title: "Unknown", color: "U" },
+	"A": {title: "Attraction", icon: iconBase + "red-dot.png" },
+	"C": {title: "City", icon: iconBase + "yellow-dot.png" },
+	"O": {title: "Outdoors", icon: iconBase + "green-dot.png" },
+	"R": {title: "Resort", icon: iconBase + "orange-dot.png" },
+	"S": {title: "Site / Landmark", icon: iconBase + "blue-dot.png" },
+	"U": {title: "Unknown", icon: "U" },
 };
