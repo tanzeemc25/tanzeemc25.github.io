@@ -126,7 +126,7 @@ function appendToFilters(v, filterContainerId) {
 
 	var filter = v["filter"];
 	var text = v["text"];
-	var textSize = window.mobileCheck() ? "h1" : "h5";
+	var textSize = "h5"; //window.mobileCheck() ? "h1" : "h5";
 
 	var filterCheckBox = 
 		'<label class="mr-3 mb-2 ' + textSize + '">' + 
