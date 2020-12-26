@@ -60,9 +60,12 @@ posters = [
 	{ "label": "Casino [1995]", "file": "casino-film.png", "filters": "movie", "link": "https://en.wikipedia.org/wiki/Casino_(1995_film)" },
 	{ "label": "Civil War Crossover Event", "file": "civil-war.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Civil_War_(comics)" },
 	{ "label": "Community", "file": "community.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Community_(TV_series)" },
+	{ "label": "Daredevil - Tv Series", "file": "daredevil-tv.png", "filters": "tv marvel", "link": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)" },
 	{ "label": "Dark Knight, The - Film Trilogy", "file": "dark-knight-trilogy.png", "filters": "movie dc", "link": "https://en.wikipedia.org/wiki/Batman_in_film#Christopher_Nolan" },
 	{ "label": "Darth Maul: Son of Dathomir Comic", "file": "darth-maul-sod.png", "filters": "comic sw", "link": "https://starwars.fandom.com/wiki/Star_Wars:_Darth_Maul%E2%80%94Son_of_Dathomir" },
 	{ "label": "Deadpool - Comic Series [1997]", "file": "deadpool.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Deadpool" },
+	{ "label": "Deadpool - Film Series", "file": "deadpool-film.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/Deadpool_(film)" },
+	{ "label": "Defenders, The - Tv Series", "file": "defenders-tv.png", "filters": "tv marvel", "link": "https://en.wikipedia.org/wiki/The_Defenders_(miniseries)" },
 	{ "label": "Dexter", "file": "dexter.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Dexter_(TV_series)" },
 	{ "label": "Dirilis Ertugrul", "file": "dirilis-ertugrul.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Dirili%C5%9F:_Ertu%C4%9Frul" },
 	{ "label": "Doctor Strange - Film Series", "file": "doctor-strange-film.png", "filters": "movie marvel mcu", "link": "https://en.wikipedia.org/wiki/Doctor_Strange_(2016_film)" },
@@ -94,7 +97,10 @@ posters = [
 	{ "label": "Incredbile Hulk, The [2008]", "file": "incredible-hulk-film.png", "filters": "movie marvel mcu", "link": "https://en.wikipedia.org/wiki/The_Incredible_Hulk_(film)" },
 	{ "label": "Infinity Gauntlet Event", "file": "infinity-gauntlet.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/The_Infinity_Gauntlet" },
 	{ "label": "Inglorious Basterds", "file": "inglorious-basterds.png", "filters": "movie history", "link": "https://en.wikipedia.org/wiki/Inglourious_Basterds" },
+	{ "label": "Iron Fist - Tv Series", "file": "iron-fist.png", "filters": "tv marvel", "link": "https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)" },
 	{ "label": "Iron Man - Film Series", "file": "iron-man-film.png", "filters": "movie marvel mcu", "link": "https://en.wikipedia.org/wiki/Iron_Man_(2008_film)" },
+	{ "label": "Jessica Jones - Tv Series", "file": "jessica-jones.png", "filters": "tv marvel", "link": "https://en.wikipedia.org/wiki/Jessica_Jones_(TV_series)" },
+	{ "label": "Joker [2019]", "file": "joker-film.png", "filters": "movie dc", "link": "https://en.wikipedia.org/wiki/Joker_(2019_film)" },
 	{ "label": "Justice League Film Series", "file": "justice-league-film.png", "filters": "movie dc", "link": "https://en.wikipedia.org/wiki/Justice_League_(film)" },
 	{ "label": "Killer Instinct [1994]", "file": "killer-instinct.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Killer_Instinct_(1994_video_game)" },
 	{ "label": "Kim's Convenience", "file": "kims-convenience.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Kim%27s_Convenience" },	
@@ -109,6 +115,7 @@ posters = [
 	{ "label": "Locke & Key", "file": "locke-and-key.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Locke_%26_Key_(TV_series)" },
 	{ "label": "Lord of the Rings Series", "file": "lord-of-the-rings.png", "filters": "movie", "link": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)" },
 	{ "label": "Lost", "file": "lost.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Lost_(TV_series)" },
+	{ "label": "Luke Cage - Tv Series", "file": "luke-cage.png", "filters": "tv marvel", "link": "https://en.wikipedia.org/wiki/Luke_Cage_(TV_series)" },
 	{ "label": "MMPR / Justic League Crossover Comic Event", "file": "mmpr-justice-league.png", "filters": "comic dc pr", "link": "https://en.wikipedia.org/wiki/Justice_League/Mighty_Morphin_Power_Rangers" },
 	{ "label": "MMPR / Ninja Turtles Crossover Comic Event", "file": "mmpr-ninja-turtle.png", "filters": "comic pr", "link": "https://en.wikipedia.org/wiki/Power_Rangers_(Boom!_Studios)" },
 	{ "label": "Magic: The Gathering - Trading Card Game", "file": "magic-the-gathering.png", "filters": "misc", "link": "https://magic.wizards.com/en" },
@@ -126,6 +133,7 @@ posters = [
 	{ "label": "Mighty Morphin Power Rangers Series [1993]", "file": "mmpr.png", "filters": "tv pr", "link": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers" },
 	{ "label": "Mr. Robot", "file": "mr-robot.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Mr._Robot" },
 	{ "label": "New Avengers Comic Series [2005]", "file": "new-avengers-comic.png", "filters": "comic marvel", "link": "https://marvel.fandom.com/wiki/New_Avengers_(Earth-616)" },
+	{ "label": "New Mutants, The [2020]", "file": "new-mutants-film.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/The_New_Mutants_(film)" },
 	{ "label": "Nineteen Eighty-Four", "file": "nineteen-eighty-four.png", "filters": "book politics", "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four" },
 	{ "label": "Office, The", "file": "office.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)" },
 	{ "label": "Old Man Logan", "file": "old-man-logan.png", "filters": "comic marvel", "link": "https://marvel.fandom.com/wiki/Old_Man_Logan_(Story_Arc)" },
@@ -140,6 +148,7 @@ posters = [
 	{ "label": "Power Rangers in Space", "file": "power-rangers-in-space.png", "filters": "tv pr", "link": "https://powerrangers.fandom.com/wiki/Power_Rangers_in_Space" },
 	{ "label": "Prince of Persia Video Game Series", "file": "prince-of-persia.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Prince_of_Persia" },
 	{ "label": "Prison Break", "file": "prison-break.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Prison_Break" },
+	{ "label": "Punisher, The - Tv Series", "file": "punisher-tv.png", "filters": "tv marvel", "link": "https://en.wikipedia.org/wiki/The_Punisher_(TV_series)" },
 	{ "label": "ReBoot", "file": "reboot.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/ReBoot" },
 	{ "label": "Rick and Morty", "file": "rick-and-morty.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Rick_and_Morty" },
 	{ "label": "Rogue One: A Star Wars Story", "file": "star-wars-rogue-one.png", "filters": "movie sw", "link": "https://en.wikipedia.org/wiki/Rogue_One" },
@@ -182,6 +191,7 @@ posters = [
 	{ "label": "Troy [2004]", "file": "troy-film.png", "filters": "movie history", "link": "https://www.imdb.com/title/tt0332452/" },
 	{ "label": "Uncanny X-Men [1963]", "file": "uncanny-xmen.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Uncanny_X-Men" },
 	{ "label": "Usual Suspects, The [1995]", "file": "usual-suspects.png", "filters": "movie", "link": "https://www.imdb.com/title/tt0114814/?ref_=wl_li_tt" },
+	{ "label": "Venom [2018]", "file": "venom-film.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/Venom_(2018_film)" },
 	{ "label": "Venom: Lethal Protector [1993]", "file": "venom-lethal-protector.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Venom:_Lethal_Protector" },
 	{ "label": "Vikings", "file": "vikings.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Vikings_(2013_TV_series)" },
 	{ "label": "Walking Dead, The - Comic Series [2003]", "file": "walking-dead-comic.png", "filters": "comic", "link": "https://en.wikipedia.org/wiki/The_Walking_Dead_(comic_book)" },
@@ -192,6 +202,9 @@ posters = [
 	{ "label": "Wonder Woman - Film Series", "file": "wonder-woman-film.png", "filters": "dc movie", "link": "https://en.wikipedia.org/wiki/Wonder_Woman_(2017_film)" },
 	{ "label": "World War Hulk Event", "file": "world-war-hulk.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/World_War_Hulk" },
 	{ "label": "X-Men Legends - Video Game Series", "file": "x-men-legends.png", "filters": "vg marvel", "link": "https://en.wikipedia.org/wiki/X-Men_Legends" },
+	{ "label": "X-Men Original Film Series", "file": "x-men-film-original.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/X-Men_(film_series)" },
+	{ "label": "X-Men Past Film Series", "file": "x-men-film-past.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/X-Men_(film_series)" },
+	{ "label": "X-Men Wolverine Film Series", "file": "wolverine-film.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/X-Men_(film_series)" },
 	// { "label": "", "file": "
 	// ", "filters": "", "link": "" },
 
@@ -199,7 +212,7 @@ posters = [
 	/* 
 	
 		TODO
-			- Joker movie
+			-
 	
 	*/
 ]
