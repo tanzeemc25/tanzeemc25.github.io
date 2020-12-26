@@ -66,5 +66,21 @@ var categories = {
 	"O": {title: "Outdoors", icon: iconBase + "green-dot.png" },
 	"R": {title: "Resort", icon: iconBase + "orange-dot.png" },
 	"S": {title: "Site / Landmark", icon: iconBase + "blue-dot.png" },
-	"U": {title: "Unknown", icon: iconBase + "blue-dot.png" },
 };
+
+var filtersRegion = [
+	{"text": "Bangladesh", "filter": "bangladesh"},
+	{"text": "Canada - Maritimes", "filter": "canada-m"},
+	{"text": "Canada - Ontario", "filter": "canada-o"},
+	{"text": "Canada - The Rest", "filter": "canada-r"},
+	{"text": "Jamaica", "filter": "jamaica"},
+	{"text": "USA - Florida", "filter": "usa-fl"},
+	{"text": "USA - The Rest", "filter": "usa-r"},
+]
+
+var filtersCategories = []
+$.each(categories, function( i, v ) {
+	var newFilter = {"text": v.title, "filter": "category-" + i}
+	filtersCategories.push(newFilter);
+});
+

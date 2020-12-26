@@ -12,14 +12,55 @@
 	</head>
 	<body>
 		
-		<!-- LIST -->
+		<!-- PLACE LIST -->
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="m-3">
-					<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#placelist" aria-expanded="false" aria-controls="placelist">
+
+					<!-- SHOW|HIDE BUTTON -->
+					<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#placeContainer" aria-expanded="false" aria-controls="placeContainer">
 						Show/Hide Places
 					</button>
-					<div id="placelist" class="row collapse m-2 mt-3"></div>
+
+
+					<!-- COLLAPSABLE AREA -->
+					<div id="placeContainer" class="collapse">
+
+
+
+						<!-- CARD: FILTERS -->
+						<div class="row m-2 mt-3 mb-1">
+
+							<div class="col-sm-12 mt-2 pl-1 pr-1">
+								<div class="card h-100 p-2">
+									<div class="row filters">
+										<div id="filtersRegion" class="col-sm-6">
+											<h2>Regions</h2>
+										</div>
+										<div id="filtersCategories" class="col-sm-6">
+											<h2>Categories</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>	
+
+
+
+
+						<!-- CARDS: PLACES -->
+						<div id="placelist" class="row m-2 mt-3">
+							<!-- FILLED IN BY JS -->
+						</div>	
+
+
+
+
+					</div>
+
+
+
 				</div>
 			</div>
 		</div>
@@ -32,6 +73,7 @@
 		</div>
 
 		<script type="text/javascript" src="../js/lib/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="../js/lib/isotope.pkgd.min.js"></script>
     	<script type="text/javascript" src="../js/lib/bootstrap.bundle.min.js"></script>
 		<script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
 		<script src="https://kit.fontawesome.com/f392248482.js" crossorigin="anonymous"></script>
