@@ -25,6 +25,7 @@ filtersOther = [
 ]
 
 posters = [
+	// { "label": "Barbarians", "file": "barbarians.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Barbarians_(2020_TV_series)" },
 	{ "label": "100, The", "file": "100.png", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/The_100_(TV_series)" },
 	{ "label": "12 Angry Men [1957]", "file": "12-angry-men.png", "filters": "movie", "link": "https://www.imdb.com/title/tt0050083/?ref_=wl_li_tt" },
 	{ "label": "30 Rock", "file": "30-rock.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/30_Rock" },
@@ -42,7 +43,6 @@ posters = [
 	{ "label": "Autobiogaphy of Malcolm X, The", "file": "autobiogaphy-malcolm-x.png", "filters": "book history politics", "link": "https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X" },
 	{ "label": "Avatar: The Last Airbender", "file": "avatar-the-last-airbender.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender" },
 	{ "label": "Avengers Film Series", "file": "avengers-film.png", "filters": "movie marvel mcu", "link": "https://en.wikipedia.org/wiki/Avengers:_Endgame" },
-	{ "label": "Barbarians", "file": "barbarians.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Barbarians_(2020_TV_series)" },
 	{ "label": "Batman - Tim Burton / Joel Schumacher Film Series", "file": "batman-film-tbjs.png", "filters": "dc movie", "link": "https://en.wikipedia.org/wiki/Batman_in_film#Tim_Burton_and_Joel_Schumacher_series_(1989%E2%80%931997)" },
 	{ "label": "Batman v Superman: Dawn of Justice [2016]", "file": "batman-v-superman-film.png", "filters": "dc movie", "link": "https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice" },
 	{ "label": "Batman: Arkham Series", "file": "batman-arkham.png", "filters": "vg dc", "link": "https://en.wikipedia.org/wiki/Batman:_Arkham" },
@@ -176,6 +176,8 @@ posters = [
 	{ "label": "Suits", "file": "suits.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Suits_(American_TV_series)" },
 	{ "label": "Super Dragon Ball Heroes", "file": "dragon-ball-heroes.png", "filters": "tv db", "link": "https://en.wikipedia.org/wiki/Super_Dragon_Ball_Heroes_(anime)" },
 	{ "label": "Super Mario All-Stars", "file": "super-mario-all-stars.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Super_Mario_All-Stars" },
+	{ "label": "Super Mario World", "file": "super-mario-world.jpg", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Super_Mario_World" },
+	{ "label": "Super Star Wars SNES Series", "file": "super-star-wars.jpg", "filters": "vg sw", "link": "https://en.wikipedia.org/wiki/Super_Star_Wars" },
 	{ "label": "Supergirl Tv Series [2015]", "file": "supergirl-tv.png", "filters": "tv dc", "link": "https://en.wikipedia.org/wiki/Supergirl_(TV_series)" },
 	{ "label": "Supernatural", "file": "supernatural.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Supernatural_(American_TV_series)" },
 	{ "label": "Survivor", "file": "survivor.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Survivor_(American_TV_series)" },
@@ -196,7 +198,9 @@ posters = [
 	{ "label": "Vikings", "file": "vikings.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Vikings_(2013_TV_series)" },
 	{ "label": "Walking Dead, The - Comic Series [2003]", "file": "walking-dead-comic.png", "filters": "comic", "link": "https://en.wikipedia.org/wiki/The_Walking_Dead_(comic_book)" },
 	{ "label": "Walking Dead, The", "file": "walking-dead-tv.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/Walking_Dead_(TV_series)" },
+	{ "label": "WandaVision", "file": "wandavision.jpg", "filters": "tv marvel mcu", "link": "https://en.wikipedia.org/wiki/WandaVision" },
 	{ "label": "Westworld [2016]", "file": "westworld.png", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Westworld_(TV_series)" },
+	{ "label": "White Tiger, The", "file": "white-tiger.jpg", "filters": "movie", "link": "https://en.wikipedia.org/wiki/The_White_Tiger_(film)" },
 	{ "label": "Who Is America?", "file": "who-is-america.png", "filters": "tv politics", "link": "https://en.wikipedia.org/wiki/Who_Is_America%3F" },
 	{ "label": "Witcher, The", "file": "witcher.png", "filters": "tv", "link": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)" },
 	{ "label": "Wonder Woman - Film Series", "file": "wonder-woman-film.png", "filters": "dc movie", "link": "https://en.wikipedia.org/wiki/Wonder_Woman_(2017_film)" },
@@ -205,14 +209,7 @@ posters = [
 	{ "label": "X-Men Original Film Series", "file": "x-men-film-original.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/X-Men_(film_series)" },
 	{ "label": "X-Men Past Film Series", "file": "x-men-film-past.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/X-Men_(film_series)" },
 	{ "label": "X-Men Wolverine Film Series", "file": "wolverine-film.png", "filters": "movie marvel", "link": "https://en.wikipedia.org/wiki/X-Men_(film_series)" },
+	{ "label": "Zombieland Film Series", "file": "zombieland.jpg", "filters": "movie", "link": "https://en.wikipedia.org/wiki/Zombieland_(franchise)" },
 	// { "label": "", "file": "
 	// ", "filters": "", "link": "" },
-
-
-	/* 
-	
-		TODO
-			-
-	
-	*/
 ]
