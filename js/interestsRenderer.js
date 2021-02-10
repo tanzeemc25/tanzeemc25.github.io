@@ -1,9 +1,5 @@
 $(function() {
 
-	$.each(filtersMedia, function( i, v ) {
-    	appendToFilters(v, "filtersMedia");
-	});
-
 	$.each(filtersFranchise, function( i, v ) {
     	appendToFilters(v, "filtersFranchise");
 	});
