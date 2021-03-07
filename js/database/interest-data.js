@@ -14,7 +14,7 @@ filtersTvMovie = [
 	{ "text": "Animation", "filter": "animation" },
 	{ "text": "British", "filter": "british" },
 	{ "text": "Comedy", "filter": "comedy" },
-	{ "text": "Comics Adaptation", "filter": "ca" },
+	{ "text": "Comic Adaptation", "filter": "ca" },
 	{ "text": "Crime", "filter": "crime" },
 	{ "text": "Drama", "filter": "drama" },
 	{ "text": "Fantasy", "filter": "fantasy" },
@@ -31,17 +31,22 @@ filtersTvMovie = [
 
 postersTv = [
 	{ "label": "100, The", "file": "100.png", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/The_100_(TV_series)" },
+	{ "label": "1600 Penn [2012]", "file": "1600-penn.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/1600_Penn" },
 	{ "label": "30 Rock", "file": "30-rock.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/30_Rock" },
 	{ "label": "8 Out of 10 Cats Does Countdown", "file": "8ootdc.jpg", "filters": "tv british ps", "link": "https://en.wikipedia.org/wiki/8_Out_of_10_Cats_Does_Countdown" },
+	{ "label": "About a Boy [2014]", "file": "aab.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/About_a_Boy_(TV_series)" },
 	{ "label": "After Life [2019]", "file": "after-life.jpg", "filters": "tv british comedy drama", "link": "https://en.wikipedia.org/wiki/After_Life_(TV_series)" },
 	{ "label": "Altered Carbon", "file": "altered-carbon.png", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Altered_Carbon_(TV_series)" },
 	{ "label": "Andromeda", "file": "andromeda.jpg", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Andromeda_(TV_series)" },
 	{ "label": "Angel [1999]", "file": "angel-tv.jpg", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Angel_(1999_TV_series)" },
 	{ "label": "Arrested Development", "file": "arrested-development.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Arrested_Development" },
 	{ "label": "Arrow", "file": "arrow.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Arrow_(TV_series)" },
+	{ "label": "Atlantis [2013]", "file": "atlantis.jpg", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Atlantis_(TV_series)" },
 	{ "label": "Avatar: The Last Airbender", "file": "avatar-the-last-airbender.png", "filters": "tv animation", "link": "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender" },
 	{ "label": "Barbarians", "file": "barbarians.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Barbarians_(2020_TV_series)" },
 	{ "label": "Battlestar Galactica [2004]", "file": "battlestar-galactica.png", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Battlestar_Galactica_(2004_TV_series)" },
+	{ "label": "Batwoman [2019]", "file": "batwoman.jpg", "filters": "tv dc ca", "link": "https://en.wikipedia.org/wiki/Batwoman_(TV_series)" },
+	{ "label": "Big Bang Thoery, The [2007]", "file": "bbt.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/The_Big_Bang_Theory" },
 	{ "label": "Black Lightning", "file": "black-lightning.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Black_Lightning" },
 	{ "label": "Black Mirror", "file": "black-mirror.jpg", "filters": "tv scifi thriller", "link": "https://en.wikipedia.org/wiki/Black_Mirror" },
 	{ "label": "Black-ish [2014]", "file": "blackish.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Black-ish" },
@@ -50,25 +55,35 @@ postersTv = [
 	{ "label": "Breaking Bad", "file": "breaking-bad.jpg", "filters": "tv drama crime", "link": "https://en.wikipedia.org/wiki/Breaking_Bad" },
 	{ "label": "Brooklyn Nine-Nine", "file": "brooklyn-nine-nine.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Brooklyn_Nine-Nine" },
 	{ "label": "Buffy the Vampire Slayer", "file": "buffy-the-vampire-slayer.png", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer" },
+	{ "label": "Catastrophe [2015]", "file": "catastrophe.jpg", "filters": "tv comedy british", "link": "https://en.wikipedia.org/wiki/Catastrophe_(2015_TV_series)" },
+	{ "label": "Champions [2018]", "file": "champions.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Champions_(American_TV_series)" },
+	{ "label": "Chamred [1998]", "file": "charmed.jpg", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Charmed" },
 	{ "label": "Chewing Gum [2015]", "file": "chewing-gum.jpg", "filters": "tv comedy british", "link": "https://en.wikipedia.org/wiki/Chewing_Gum_(TV_series)" },
 	{ "label": "Community", "file": "community.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Community_(TV_series)" },
 	{ "label": "Cougar Town [2009]", "file": "cougar-town.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Cougar_Town" },
-	{ "label": "Daredevil - Tv Series", "file": "daredevil-tv.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)" },
-	{ "label": "Defenders, The - Tv Series", "file": "defenders-tv.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/The_Defenders_(miniseries)" },
+	{ "label": "DC's Legends of Tomorrow", "file": "legends-of-tomorrow.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Legends_of_Tomorrow" },
 	{ "label": "Dexter", "file": "dexter.png", "filters": "tv crime drama mystery", "link": "https://en.wikipedia.org/wiki/Dexter_(TV_series)" },
 	{ "label": "Digimon: Digital Monsters", "file": "digimon.jpg", "filters": "tv animation", "link": "https://en.wikipedia.org/wiki/Digimon_Adventure" },
 	{ "label": "Dirilis Ertugrul", "file": "dirilis-ertugrul.png", "filters": "tv history foreign", "link": "https://en.wikipedia.org/wiki/Dirili%C5%9F:_Ertu%C4%9Frul" },
+	{ "label": "Dollhouse [2009]", "file": "dollhouse.jpg", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Dollhouse_(TV_series)" },
 	{ "label": "Don't Trust the B in Apartment 23", "file": "dttbia23.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Don%27t_Trust_the_B----_in_Apartment_23" },
 	{ "label": "Dragon Ball GT", "file": "dragon-ball-gt.jpg", "filters": "tv animation db", "link": "https://en.wikipedia.org/wiki/Dragon_Ball_GT" },
 	{ "label": "Dragon Ball Super", "file": "dragon-ball-super.jpg", "filters": "tv animation db", "link": "https://en.wikipedia.org/wiki/Dragon_Ball_Super" },
 	{ "label": "Dragon Ball Z", "file": "dragon-ball-z.jpg", "filters": "tv animation db", "link": "https://en.wikipedia.org/wiki/Dragon_Ball_Z" },
 	{ "label": "Dragon Ball", "file": "dragon-ball.png", "filters": "tv animation db", "link": "https://en.wikipedia.org/wiki/Dragon_Ball_(TV_series)" },
+	{ "label": "Empire [2015]", "file": "empire.jpg", "filters": "tv musical drama", "link": "https://en.wikipedia.org/wiki/Empire_(2015_TV_series)" },
 	{ "label": "Entourage [2004]", "file": "entourage.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Entourage_(American_TV_series)" },
+	{ "label": "Episodes [2011]", "file": "episodes.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Episodes_(TV_series)" },
+	{ "label": "Everybody Loves Raymond [1996]", "file": "elr.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Everybody_Loves_Raymond" },
 	{ "label": "Flash, The - Tv Series [2014]", "file": "flash.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/The_Flash_(2014_TV_series)" },
+	{ "label": "Four: Battle for Stardom, The [2018]", "file": "four-bfs.jpg", "filters": "tv reality", "link": "https://en.wikipedia.org/wiki/The_Four:_Battle_for_Stardom" },
+	{ "label": "Freaks and Geeks [1999]", "file": "freaks-and-geeks.jpg", "filters": "tv comedy drama", "link": "https://en.wikipedia.org/wiki/Freaks_and_Geeks" },
 	{ "label": "Fresh Prince of Bel-Air [1990]", "file": "fpoba.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air" },
+	{ "label": "Fresh off the Boat [2015]", "file": "fotb.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Fresh_Off_the_Boat" },
 	{ "label": "Friends [1994]", "file": "friends.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Friends" },
 	{ "label": "Fringe", "file": "fringe.png", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Fringe_(TV_series)" },
 	{ "label": "Full House [1987]", "file": "full-house.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Full_House" },
+	{ "label": "Fuller House [2016]", "file": "fuller-house.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Fuller_House_(TV_series)" },
 	{ "label": "Game of Thrones", "file": "game-of-thrones.jpg", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Game_of_Thrones" },
 	{ "label": "Get Down, The", "file": "get-down.png", "filters": "tv musical drama", "link": "https://en.wikipedia.org/wiki/The_Get_Down" },
 	{ "label": "Go On [2012]", "file": "go-on.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Go_On_(TV_series)" },
@@ -82,20 +97,24 @@ postersTv = [
 	{ "label": "Heroes [2006]", "file": "heroes.png", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Heroes_(American_TV_series)" },
 	{ "label": "House of Lies [2012]", "file": "house-of-lies.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/House_of_Lies" },
 	{ "label": "How I Met Your Mother [2005]", "file": "himym.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/How_I_Met_Your_Mother" },
-	{ "label": "Iron Fist - Tv Series", "file": "iron-fist.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)" },
-	{ "label": "Jessica Jones - Tv Series", "file": "jessica-jones.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Jessica_Jones_(TV_series)" },
 	{ "label": "Kim's Convenience", "file": "kims-convenience.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Kim%27s_Convenience" },	
 	{ "label": "Kurulus: Osman", "file": "kurulus-osman.png", "filters": "tv history foreign", "link": "https://en.wikipedia.org/wiki/Kurulu%C5%9F:_Osman" },
 	{ "label": "Last Kingdom, The", "file": "last-kingdom.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/The_Last_Kingdom_(TV_series)" },
 	{ "label": "Legend of Korra, The", "file": "legend-of-korra.jpg", "filters": "tv animation", "link": "https://en.wikipedia.org/wiki/The_Legend_of_Korra" },
-	{ "label": "Legends of Tomorrow", "file": "legends-of-tomorrow.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Legends_of_Tomorrow" },
 	{ "label": "Locke & Key", "file": "locke-and-key.png", "filters": "tv ca fantasy", "link": "https://en.wikipedia.org/wiki/Locke_%26_Key_(TV_series)" },
 	{ "label": "Lost", "file": "lost.jpg", "filters": "tv fantasy mystery", "link": "https://en.wikipedia.org/wiki/Lost_(TV_series)" },
-	{ "label": "Love - Tv Series", "file": "love-netflix.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Love_(TV_series)" },
-	{ "label": "Luke Cage - Tv Series", "file": "luke-cage.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Luke_Cage_(TV_series)" },
+	{ "label": "Love [2016]", "file": "love-netflix.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Love_(TV_series)" },
 	{ "label": "Mad Men", "file": "mad-men.jpg", "filters": "tv drama", "link": "https://en.wikipedia.org/wiki/Mad_Men" },
 	{ "label": "Man Like Mobeen [2017]", "file": "man-like-mobeen.png", "filters": "tv comedy british", "link": "https://en.wikipedia.org/wiki/Man_Like_Mobeen" },
 	{ "label": "Mandalorian, The", "file": "mandalorian.png", "filters": "tv sw", "link": "https://en.wikipedia.org/wiki/The_Mandalorian" },
+	{ "label": "Marvel's Agents of S.H.I.E.L.D. [2013]", "file": "maos.jpg", "filters": "tv marvel ca", "link": "https://en.wikipedia.org/wiki/Agents_of_S.H.I.E.L.D." },
+	{ "label": "Marvel's Daredevil", "file": "daredevil-tv.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)" },
+	{ "label": "Marvel's Inhumans", "file": "marvels-inhumans.jpg", "filters": "tv marvel ca", "link": "https://en.wikipedia.org/wiki/Inhumans_(TV_series)" },
+	{ "label": "Marvel's Iron Fist", "file": "iron-fist.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)" },
+	{ "label": "Marvel's Jessica Jones", "file": "jessica-jones.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Jessica_Jones_(TV_series)" },
+	{ "label": "Marvel's Luke Cage", "file": "luke-cage.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/Luke_Cage_(TV_series)" },
+	{ "label": "Marvel's The Defenders", "file": "defenders-tv.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/The_Defenders_(miniseries)" },
+	{ "label": "Marvel's The Punisher", "file": "punisher-tv.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/The_Punisher_(TV_series)" },
 	{ "label": "Master of None", "file": "master-of-none.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Master_of_None" },
 	{ "label": "Messiah", "file": "messiah.jpg", "filters": "tv drama", "link": "https://en.wikipedia.org/wiki/Messiah_(American_TV_series)" },
 	{ "label": "Middle, The", "file": "middle-the.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/The_Middle_(TV_series)" },
@@ -110,7 +129,6 @@ postersTv = [
 	{ "label": "Parks and Recreation", "file": "parks-and-recreation.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Parks_and_Recreation" },
 	{ "label": "Patriot Act with Hasan Minhaj", "file": "patriot-act-with-hasan-minhaj.png", "filters": "tv comedy ts", "link": "https://en.wikipedia.org/wiki/Patriot_Act_with_Hasan_Minhaj" },
 	{ "label": "Prison Break", "file": "prison-break.png", "filters": "tv crime", "link": "https://en.wikipedia.org/wiki/Prison_Break" },
-	{ "label": "Punisher, The - Tv Series", "file": "punisher-tv.png", "filters": "tv ca marvel", "link": "https://en.wikipedia.org/wiki/The_Punisher_(TV_series)" },
 	{ "label": "ReBoot", "file": "reboot.png", "filters": "tv animation", "link": "https://en.wikipedia.org/wiki/ReBoot" },
 	{ "label": "Rick and Morty", "file": "rick-and-morty.png", "filters": "tv comedy animation", "link": "https://en.wikipedia.org/wiki/Rick_and_Morty" },
 	{ "label": "Rome [2005]", "file": "rome-tv.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Rome_(TV_series)" },
@@ -118,7 +136,7 @@ postersTv = [
 	{ "label": "Schitt's Creek [2015]", "file": "schitts-creek.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Schitt%27s_Creek" },
 	{ "label": "Scrubs [2001]", "file": "scrubs.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Scrubs_(TV_series)" },
 	{ "label": "Seinfeld [1989]", "file": "seinfeld.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Seinfeld" },
-	{ "label": "Series of Unfortunate Events, A - Tv Series", "file": "asoue-netflix.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)" },
+	{ "label": "Series of Unfortunate Events, A [2017]", "file": "asoue-netflix.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)" },
 	{ "label": "Silicon Valley", "file": "silicon-valley.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)" },
 	{ "label": "Smallville", "file": "smallville.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Smallville" },
 	{ "label": "Spartacus", "file": "spartacus.png", "filters": "tv history", "link": "https://en.wikipedia.org/wiki/Spartacus_(TV_series)" },
@@ -127,7 +145,8 @@ postersTv = [
 	{ "label": "Suburgatory", "file": "suburgatory.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Suburgatory" },
 	{ "label": "Suits", "file": "suits.png", "filters": "tv drama", "link": "https://en.wikipedia.org/wiki/Suits_(American_TV_series)" },
 	{ "label": "Super Dragon Ball Heroes", "file": "dragon-ball-heroes.png", "filters": "tv animation db", "link": "https://en.wikipedia.org/wiki/Super_Dragon_Ball_Heroes_(anime)" },
-	{ "label": "Supergirl Tv Series [2015]", "file": "supergirl-tv.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Supergirl_(TV_series)" },
+	{ "label": "Supergirl [2015]", "file": "supergirl-tv.png", "filters": "tv ca dc", "link": "https://en.wikipedia.org/wiki/Supergirl_(TV_series)" },
+	{ "label": "Superman & Lois", "file": "superman-lois.jpg", "filters": "tv dc ca", "link": "https://en.wikipedia.org/wiki/Superman_%26_Lois" },
 	{ "label": "Supernatural", "file": "supernatural.png", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/Supernatural_(American_TV_series)" },
 	{ "label": "Superstore [2015]", "file": "superstore.jpg", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Superstore_(TV_series)" },
 	{ "label": "Survivor", "file": "survivor.png", "filters": "tv reality", "link": "https://en.wikipedia.org/wiki/Survivor_(American_TV_series)" },
@@ -142,6 +161,7 @@ postersTv = [
 	{ "label": "Westworld [2016]", "file": "westworld.jpg", "filters": "tv scifi", "link": "https://en.wikipedia.org/wiki/Westworld_(TV_series)" },
 	{ "label": "Who Is America?", "file": "who-is-america.png", "filters": "tv comedy", "link": "https://en.wikipedia.org/wiki/Who_Is_America%3F" },
 	{ "label": "Witcher, The", "file": "witcher.png", "filters": "tv fantasy", "link": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)" },
+	{ "label": "Wolverine and the X-Men", "file": "watx.jpg", "filters": "tv marvel ca animation", "link": "https://en.wikipedia.org/wiki/Wolverine_and_the_X-Men_(TV_series)" },
 ];
 
 postersMovie = [
@@ -282,38 +302,6 @@ postersBook = [
 	{ "label": "To Kill a Mockingbird", "file": "to-kill-a-mockingbird.png", "filters": "book gothic", "link": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird" },
 ];
 
-
-
-
-
-
-
-
-
-filtersUnorg = [
-	{ "text": "Books", "filter": "book" },
-	{ "text": "Comics", "filter": "comic" },
-	{ "text": "Gaming", "filter": "vg" },
-	{ "text": "Misc", "filter": "misc" },
-	{ "text": "Movies", "filter": "movie" },
-	{ "text": "Socio-political", "filter": "sp" },
-	{ "text": "Sports", "filter": "sport" },
-	{ "text": "Tv", "filter": "tv" },
-];
-
-postersUnorg = [		
-	{ "label": "Magic: The Gathering - Trading Card Game", "file": "magic-the-gathering.png", "filters": "misc", "link": "https://en.wikipedia.org/wiki/Magic:_The_Gathering" },
-	{ "label": "Pokemon: Trading Card Game", "file": "pokemon-tcg.png", "filters": "misc", "link": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game" },
-	{ "label": "Power Rangers Zeo", "file": "power-rangers-zeo.png", "filters": "tv pr", "link": "https://powerrangers.fandom.com/wiki/Power_Rangers_Zeo" },
-	{ "label": "Power Rangers in Space", "file": "power-rangers-in-space.png", "filters": "tv pr", "link": "https://powerrangers.fandom.com/wiki/Power_Rangers_in_Space" },
-	{ "label": "Toronto Maple Leafs", "file": "maple-leafs.png", "filters": "sport", "link": "https://en.wikipedia.org/wiki/Toronto_Maple_Leafs" },
-	{ "label": "Toronto Raptors", "file": "raptors.png", "filters": "sport", "link": "https://en.wikipedia.org/wiki/Toronto_Raptors" },
-	
-	// { "label": "", "file": "
-	// ", "filters": "", "link": "" },
-]
-
-
 var $_GET = {};
 if (document.location.toString().indexOf('?') !== -1) {
     var query = document.location.toString().replace(/^.*?\?/, '').replace(/#.*$/, '').split('&');
@@ -341,3 +329,26 @@ if (iType === 'tv') {
 	posters = postersBook;
 	filtersMain = filtersBook;
 }
+
+// { "label": "", "file": "
+// ", "filters": "", "link": "" },
+
+filtersUnorg = [
+	{ "text": "Books", "filter": "book" },
+	{ "text": "Comics", "filter": "comic" },
+	{ "text": "Gaming", "filter": "vg" },
+	{ "text": "Misc", "filter": "misc" },
+	{ "text": "Movies", "filter": "movie" },
+	{ "text": "Socio-political", "filter": "sp" },
+	{ "text": "Sports", "filter": "sport" },
+	{ "text": "Tv", "filter": "tv" },
+];
+
+postersUnorg = [		
+	{ "label": "Magic: The Gathering - Trading Card Game", "file": "magic-the-gathering.png", "filters": "misc", "link": "https://en.wikipedia.org/wiki/Magic:_The_Gathering" },
+	{ "label": "Pokemon: Trading Card Game", "file": "pokemon-tcg.png", "filters": "misc", "link": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game" },
+	{ "label": "Power Rangers Zeo", "file": "power-rangers-zeo.png", "filters": "tv pr", "link": "https://powerrangers.fandom.com/wiki/Power_Rangers_Zeo" },
+	{ "label": "Power Rangers in Space", "file": "power-rangers-in-space.png", "filters": "tv pr", "link": "https://powerrangers.fandom.com/wiki/Power_Rangers_in_Space" },
+	{ "label": "Toronto Maple Leafs", "file": "maple-leafs.png", "filters": "sport", "link": "https://en.wikipedia.org/wiki/Toronto_Maple_Leafs" },
+	{ "label": "Toronto Raptors", "file": "raptors.png", "filters": "sport", "link": "https://en.wikipedia.org/wiki/Toronto_Raptors" },
+]
