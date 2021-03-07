@@ -1,11 +1,7 @@
 $(function() {
 
-	$.each(filtersFranchise, function( i, v ) {
-    	appendToFilters(v, "filtersFranchise");
-	});
-
-	$.each(filtersOther, function( i, v ) {
-    	appendToFilters(v, "filtersOther");
+	$.each(filtersMain, function( i, v ) {
+    	appendToFilters(v, "filtersMain");
 	});
 
     $.each(posters, function( i, v ) {
