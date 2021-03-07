@@ -279,6 +279,7 @@ postersVideoGame = [
 
 filtersBook = [
 	{ "text": "Autobiography", "filter": "ab" },
+	{ "text": "Children's Literature", "filter": "cl" },
 	{ "text": "Fantasy", "filter": "fantasy" },
 	{ "text": "Gothic", "filter": "gothic" },
 	{ "text": "Historical Fiction", "filter": "hf" },
@@ -292,14 +293,17 @@ filtersBook = [
 postersBook = [
 	{ "label": "Animal Farm", "file": "animal-farm.png", "filters": "book politics", "link": "https://en.wikipedia.org/wiki/Animal_Farm" },
 	{ "label": "Autobiogaphy of Malcolm X, The", "file": "autobiogaphy-malcolm-x.png", "filters": "book ab", "link": "https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X" },
+	{ "label": "Camp X", "file": "camp-x.jpg", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/Camp_X_(novel)" },
 	{ "label": "Ender's Game", "file": "enders-game.jpg", "filters": "book scifi", "link": "https://en.wikipedia.org/wiki/Ender%27s_Game" },
 	{ "label": "Harry Potter - Book Series", "file": "harry-potter-books.png", "filters": "book fantasy ya", "link": "https://en.wikipedia.org/wiki/Harry_Potter" },
+	{ "label": "Hero's Walk, The", "file": "heros-walk.jpg", "filters": "book ss", "link": "https://en.wikipedia.org/wiki/The_Hero%27s_Walk" },
 	{ "label": "Kite Runner, The", "file": "kite-runner.png", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/The_Kite_Runner" },
 	{ "label": "Nineteen Eighty-Four", "file": "nineteen-eighty-four.png", "filters": "book politics ss", "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four" },
 	{ "label": "Sapiens: A Brief History of Humankind", "file": "sapiens-abhoh.png", "filters": "book history nf", "link": "https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind" },
-	{ "label": "Song of Ice and Fire, A - Book Series", "file": "song-of-ice-and-fire.png", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" },
+	{ "label": "Song of Ice and Fire, A", "file": "song-of-ice-and-fire.png", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" },
 	{ "label": "Thousand Splendid Suns, A", "file": "thousand-splendid-suns.png", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/A_Thousand_Splendid_Suns" },
 	{ "label": "To Kill a Mockingbird", "file": "to-kill-a-mockingbird.png", "filters": "book gothic", "link": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird" },
+	{ "label": "Where the Red Fern Grows", "file": "wtrfg.jpg", "filters": "book cl", "link": "https://en.wikipedia.org/wiki/Where_the_Red_Fern_Grows" },
 ];
 
 var $_GET = {};
