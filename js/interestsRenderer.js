@@ -1,5 +1,57 @@
 $(function() {
 
+	// Page GET vars
+	var $_GET = {};
+	if (document.location.toString().indexOf('?') !== -1) {
+		var query = document.location.toString().replace(/^.*?\?/, '').replace(/#.*$/, '').split('&');
+		for (var i = 0, l = query.length; i < l; i++) {
+		   var aux = decodeURIComponent(query[i]).split('=');
+		   $_GET[aux[0]] = aux[1];
+		}
+	}
+
+	// Routing based on GET var
+	var iType = $_GET['t'];
+	if (iType === 'tv') {
+		posters = postersTv;
+		filtersMain = filtersTvMovie;
+	} else if (iType === 'mv') {
+		posters = postersMovie;
+		filtersMain = filtersTvMovie;
+	} else if (iType === 'co') {
+		posters = postersComic;
+		filtersMain = filtersComic;
+	} else if (iType === 'vg') {
+		posters = postersVideoGame;
+		filtersMain = [];
+		$(".filters").hide();
+	} else if (iType === 'bk') {
+		posters = postersBook;
+		filtersMain = filtersBook;
+	} else if (iType === 'ml') {
+		posters = compilePosters("marvel");
+		filtersMain = filtersGroup;
+	} else if (iType === 'dc') {
+		posters = compilePosters("dc");
+		filtersMain = filtersGroup;
+	} else if (iType === 'pr') {
+		posters = compilePosters("pr");
+		filtersMain = filtersGroup;
+	} else if (iType === 'sw') {
+		posters = compilePosters("sw");
+		filtersMain = filtersGroup;
+	} else if (iType === 'db') {
+		posters = compilePosters("db");
+		filtersMain = filtersGroup;
+	} else if (iType === 'pk') {
+		posters = compilePosters("pokemon");
+		filtersMain = filtersGroup;
+	} else {
+		posters = [];
+		filtersMain = [];
+		$(".filters").hide();
+	}
+
 	$.each(filtersMain, function( i, v ) {
     	appendToFilters(v, "filtersMain");
 	});
@@ -80,4 +132,31 @@ function appendToFilters(v, filterContainerId) {
 	;
 
 	$("#" + filterContainerId).append(filterCheckBox);
+}
+
+
+function compilePosters(f) {
+	var cPosters = [];
+	var groups = [postersTv, postersMovie, postersComic, postersBook, postersVideoGame, postersMisc];
+	$.each( groups, function( gk, gv ) {
+		$.each( gv, function( k, v ) {
+			if ($.inArray(f, v.filters.split(" ")) != -1) {
+				cPosters.push(v);
+			};
+		});
+	});
+	cPosters.sort(GetSortOrder("label"));
+	return cPosters;
+};
+
+
+function GetSortOrder(prop) {    
+    return function(a, b) {    
+        if (a[prop] > b[prop]) {    
+            return 1;    
+        } else if (a[prop] < b[prop]) {    
+            return -1;    
+        }    
+        return 0;    
+    }    
 }

@@ -263,13 +263,17 @@ postersComic = [
 	{ "label": "Mighty Avengers - Comic Series [2007]", "file": "mighty-avengers-comic.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/The_Mighty_Avengers" },
 	{ "label": "Mighty Morphin Comic Series [2020]", "file": "mighty-morphin-comic.png", "filters": "comic pr boom", "link": "https://en.wikipedia.org/wiki/Power_Rangers_(Boom!_Studios)" },
 	{ "label": "Mighty Morphin Power Rangers - Comic Series [2016]", "file": "mmpr-boom-studios.png", "filters": "comic pr boom", "link": "https://en.wikipedia.org/wiki/Power_Rangers_(Boom!_Studios)" },
+	{ "label": "Mighty Morphin Power Rangers: Pink [2016]", "file": "mmpr-pink.jpg", "filters": "comic pr boom", "link": "https://powerrangers.fandom.com/wiki/Category:Mighty_Morphin_Power_Rangers:_Pink" },
 	{ "label": "New Avengers Comic Series [2005]", "file": "new-avengers-comic.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/The_New_Avengers_(comics)" },
 	{ "label": "Old Man Logan", "file": "old-man-logan.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Old_Man_Logan" },
 	{ "label": "Power Rangers Comic Series [2020]", "file": "power-rangers-comic.png", "filters": "comic pr boom", "link": "https://en.wikipedia.org/wiki/Power_Rangers_(Boom!_Studios)" },
+	{ "label": "Sub-Mariner Vol. 2 [2007]", "file": "namor-submariner-vol2.jpg", "filters": "comic marvel", "link": "https://marvel.fandom.com/wiki/Sub-Mariner_Vol_2" },
+	{ "label": "Thunderbolts Vol. 1 [1997]", "file": "thunderbolts-vol1.jpg", "filters": "comic marvel", "link": "https://marvel.fandom.com/wiki/Thunderbolts_Vol_1" },
 	{ "label": "Uncanny X-Men [1963]", "file": "uncanny-xmen.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Uncanny_X-Men" },
 	{ "label": "Venom: Lethal Protector [1993]", "file": "venom-lethal-protector.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/Venom:_Lethal_Protector" },
 	{ "label": "Walking Dead, The - Comic Series [2003]", "file": "walking-dead-comic.png", "filters": "comic ic", "link": "https://en.wikipedia.org/wiki/The_Walking_Dead_(comic_book)" },
-	{ "label": "World War Hulk Event", "file": "world-war-hulk.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/World_War_Hulk" },
+	{ "label": "Wolverine Vol. 3 [2003]", "file": "wolverine-vol3.jpg", "filters": "comic marvel", "link": "https://marvel.fandom.com/wiki/Wolverine_Vol_3" },
+	{ "label": "World War Hulk Event [2007]", "file": "world-war-hulk.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/World_War_Hulk" },
 ];
 
 postersVideoGame = [
@@ -281,7 +285,9 @@ postersVideoGame = [
 	{ "label": "Killer Instinct [1994]", "file": "killer-instinct.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Killer_Instinct_(1994_video_game)" },
 	{ "label": "Marvel: Ultimate Alliance Series", "file": "marvel-ultimate-alliance.png", "filters": "vg marvel", "link": "https://en.wikipedia.org/wiki/Marvel%3A_Ultimate_Alliance" },
 	{ "label": "Megaman Battle Network Series", "file": "megaman-battle-network.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Mega_Man_Battle_Network" },
+	{ "label": "Pokemon FireRed and LeafGreen", "file": "pokemon-leafgreen-firered.jpg", "filters": "vg pokemon", "link": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen" },
 	{ "label": "Pokemon GO", "file": "pokemon-go.png", "filters": "vg pokemon", "link": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go" },
+	{ "label": "Pokemon Ruby and Sapphire", "file": "pokemon-ruby-sapphire.jpg", "filters": "vg pokemon", "link": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire" },
 	{ "label": "Prince of Persia Video Game Series", "file": "prince-of-persia.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Prince_of_Persia" },
 	{ "label": "Super Mario All-Stars", "file": "super-mario-all-stars.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Super_Mario_All-Stars" },
 	{ "label": "Super Mario World", "file": "super-mario-world.jpg", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Super_Mario_World" },
@@ -337,81 +343,6 @@ filtersGroup = [
 	{ "text": "Television", "filter": "tv" },
 	{ "text": "Video Game", "filter": "vg" },
 ];
-
-var $_GET = {};
-if (document.location.toString().indexOf('?') !== -1) {
-    var query = document.location.toString().replace(/^.*?\?/, '').replace(/#.*$/, '').split('&');
-    for (var i = 0, l = query.length; i < l; i++) {
-       var aux = decodeURIComponent(query[i]).split('=');
-       $_GET[aux[0]] = aux[1];
-    }
-}
-
-function GetSortOrder(prop) {    
-    return function(a, b) {    
-        if (a[prop] > b[prop]) {    
-            return 1;    
-        } else if (a[prop] < b[prop]) {    
-            return -1;    
-        }    
-        return 0;    
-    }    
-}  
-
-function compilePosters(f) {
-	var cPosters = [];
-	var groups = [postersTv, postersMovie, postersComic, postersBook, postersVideoGame, postersMisc];
-	$.each( groups, function( gk, gv ) {
-		$.each( gv, function( k, v ) {
-			if ($.inArray(f, v.filters.split(" ")) != -1) {
-				cPosters.push(v);
-			};
-		});
-	});
-	cPosters.sort(GetSortOrder("label"));
-	return cPosters;
-};
-
-var iType = $_GET['t'];
-if (iType === 'tv') {
-	posters = postersTv;
-	filtersMain = filtersTvMovie;
-} else if (iType === 'mv') {
-	posters = postersMovie;
-	filtersMain = filtersTvMovie;
-} else if (iType === 'co') {
-	posters = postersComic;
-	filtersMain = filtersComic;
-} else if (iType === 'vg') {
-	posters = postersVideoGame;
-	filtersMain = [];
-	$(".filters").hide();
-} else if (iType === 'bk') {
-	posters = postersBook;
-	filtersMain = filtersBook;
-} else if (iType === 'ml') {
-	posters = compilePosters("marvel");
-	filtersMain = filtersGroup;
-} else if (iType === 'dc') {
-	posters = compilePosters("dc");
-	filtersMain = filtersGroup;
-} else if (iType === 'pr') {
-	posters = compilePosters("pr");
-	filtersMain = filtersGroup;
-} else if (iType === 'sw') {
-	posters = compilePosters("sw");
-	filtersMain = filtersGroup;
-} else if (iType === 'db') {
-	posters = compilePosters("db");
-	filtersMain = filtersGroup;
-} else if (iType === 'pk') {
-	posters = compilePosters("pokemon");
-	filtersMain = filtersGroup;
-} else {
-	posters = [];
-	filtersMain = [];
-	$(".filters").hide();
-}
 
 // { "label": "", "file": "
 // ", "filters": "", "link": "" },
