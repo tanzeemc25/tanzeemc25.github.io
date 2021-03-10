@@ -35,6 +35,10 @@ h5 {
 	color: black;
 }
 
+.bg-lightplus {
+	background-color: #ecf0f3!important;
+}
+
 .fas:hover,.fab:hover {
 	color: #00cc00;
 }
@@ -51,6 +55,10 @@ h5 {
 .img-responsive {
 	width:100%;
 	object-fit: cover;
+}
+
+.img-responsive:hover {
+	opacity: 0.5;
 }
 
 .no-wrap {
