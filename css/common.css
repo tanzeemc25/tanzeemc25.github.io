@@ -57,10 +57,6 @@ h5 {
 	object-fit: cover;
 }
 
-.img-responsive:hover {
-	opacity: 0.5;
-}
-
 .no-wrap {
 	white-space: nowrap;
 }

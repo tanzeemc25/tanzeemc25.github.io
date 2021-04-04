@@ -105,7 +105,7 @@ function appendToGrid(v) {
 	var graphic = '<img src="../img/interests/' + fileName + '" class="posterImg" height="' + posterSize + '" width="' + posterSize + '">';
 
 	var posterDiv = 
-		'<div class="poster ' + filters + '">' + 
+		'<div class="poster ml-1 mt-1 ' + filters + '">' + 
 			graphic +  
 			'<div class="middle">' +
 				'<div class="text">' + 
