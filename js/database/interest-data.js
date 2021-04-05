@@ -25,6 +25,42 @@ filtersTvMovie = [
 	{ "text": "Thriller", "filter": "thriller" },
 ];
 
+filtersComic = [
+	{ "text": "Boom! Studios", "filter": "boom" },
+	{ "text": "DC", "filter": "dc" },
+	{ "text": "Dark Horse", "filter": "dhc" },
+	{ "text": "Dynamite", "filter": "dynamite" },
+	{ "text": "IDW Publishing", "filter": "idw" },
+	{ "text": "Image", "filter": "ic" },
+	{ "text": "Marvel", "filter": "marvel" },
+];
+
+filtersBook = [
+	{ "text": "Autobiography", "filter": "ab" },
+	{ "text": "Children's Literature", "filter": "cl" },
+	{ "text": "Fantasy", "filter": "fantasy" },
+	{ "text": "Gothic", "filter": "gothic" },
+	{ "text": "Historical Fiction", "filter": "hf" },
+	{ "text": "Non-fiction", "filter": "nf" },
+	{ "text": "Politics", "filter": "politics" },
+	{ "text": "Sci-fi", "filter": "scifi" },
+	{ "text": "Social", "filter": "ss" },
+	{ "text": "Young Adult", "filter": "ya" },
+];
+
+filtersGroup = [
+	{ "text": "Book", "filter": "book" },
+	{ "text": "Comic", "filter": "comic" },
+	{ "text": "Misc", "filter": "misc" },
+	{ "text": "Movie", "filter": "movie" },
+	{ "text": "Television", "filter": "tv" },
+	{ "text": "Video Game", "filter": "vg" },
+];
+
+filtersUnorg = [
+	{ "text": "Sports", "filter": "sport" },
+];
+
 postersTv = [
 	{ "label": "100, The", "file": "100.png", "filters": "tv scifi action", "link": "https://en.wikipedia.org/wiki/The_100_(TV_series)" },
 	{ "label": "1600 Penn [2012]", "file": "1600-penn.jpg", "filters": "tv comedy sitcom", "link": "https://en.wikipedia.org/wiki/1600_Penn" },
@@ -91,7 +127,7 @@ postersTv = [
 	{ "label": "From Dusk till Dawn: The Series [2014]", "file": "fdtd.jpg", "filters": "tv drama horror", "link": "https://en.wikipedia.org/wiki/From_Dusk_till_Dawn:_The_Series" },
 	{ "label": "Full House [1987]", "file": "full-house.jpg", "filters": "tv comedy sitcom", "link": "https://en.wikipedia.org/wiki/Full_House" },
 	{ "label": "Fuller House [2016]", "file": "fuller-house.jpg", "filters": "tv comedy sitcom", "link": "https://en.wikipedia.org/wiki/Fuller_House_(TV_series)" },
-	{ "label": "Game of Thrones", "file": "game-of-thrones.jpg", "filters": "tv fantasy drama", "link": "https://en.wikipedia.org/wiki/Game_of_Thrones" },
+	{ "label": "Game of Thrones", "file": "game-of-thrones.jpg", "filters": "tv fantasy drama asoiaf", "link": "https://en.wikipedia.org/wiki/Game_of_Thrones" },
 	{ "label": "Geordie Shore [2011]", "file": "geordie-shore.jpg", "filters": "tv reality british", "link": "https://en.wikipedia.org/wiki/Geordie_Shore" },
 	{ "label": "Get Down, The", "file": "get-down.png", "filters": "tv musical drama", "link": "https://en.wikipedia.org/wiki/The_Get_Down" },
 	{ "label": "Gilmore Girls [2000]", "file": "gilmore-girls.jpg", "filters": "tv drama comedy", "link": "https://en.wikipedia.org/wiki/Gilmore_Girls" },
@@ -298,16 +334,6 @@ postersMovie = [
 	{ "label": "Zombieland Film Series", "file": "zombieland.jpg", "filters": "movie comedy fantasy", "link": "https://en.wikipedia.org/wiki/Zombieland_(franchise)" },
 ];
 
-filtersComic = [
-	{ "text": "Boom! Studios", "filter": "boom" },
-	{ "text": "DC", "filter": "dc" },
-	{ "text": "Dark Horse", "filter": "dhc" },
-	{ "text": "Dynamite", "filter": "dynamite" },
-	{ "text": "IDW Publishing", "filter": "idw" },
-	{ "text": "Image", "filter": "ic" },
-	{ "text": "Marvel", "filter": "marvel" },
-];
-
 postersComic = [
 	{ "label": "Amazing Spider-Man Series [1963]", "file": "amazing-spider-man.png", "filters": "comic marvel", "link": "https://en.wikipedia.org/wiki/The_Amazing_Spider-Man" },
 	{ "label": "Boys, The - Comic Series [2006]", "file": "boys-comic.png", "filters": "comic dynamite", "link": "https://en.wikipedia.org/wiki/The_Boys_(comics)" },
@@ -354,34 +380,21 @@ postersVideoGame = [
 	{ "label": "X-Men Legends - Video Game Series", "file": "x-men-legends.png", "filters": "vg marvel", "link": "https://en.wikipedia.org/wiki/X-Men_Legends" },
 ];
 
-filtersBook = [
-	{ "text": "Autobiography", "filter": "ab" },
-	{ "text": "Children's Literature", "filter": "cl" },
-	{ "text": "Fantasy", "filter": "fantasy" },
-	{ "text": "Gothic", "filter": "gothic" },
-	{ "text": "Historical Fiction", "filter": "hf" },
-	{ "text": "Non-fiction", "filter": "nf" },
-	{ "text": "Politics", "filter": "politics" },
-	{ "text": "Sci-fi", "filter": "scifi" },
-	{ "text": "Social", "filter": "ss" },
-	{ "text": "Young Adult", "filter": "ya" },
-];
-
 postersBook = [
 	{ "label": "Animal Farm", "file": "animal-farm.png", "filters": "book politics", "link": "https://en.wikipedia.org/wiki/Animal_Farm" },
 	{ "label": "Autobiogaphy of Malcolm X, The", "file": "autobiogaphy-malcolm-x.png", "filters": "book ab", "link": "https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X" },
 	{ "label": "Camp X", "file": "camp-x.jpg", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/Camp_X_(novel)" },
-	{ "label": "Clash of Kings, A", "file": "clash-of-kings.jpg", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Clash_of_Kings" },
-	{ "label": "Dance with Dragons, A", "file": "dance-with-dragons.jpg", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Dance_with_Dragons" },
+	{ "label": "Clash of Kings, A", "file": "clash-of-kings.jpg", "filters": "book fantasy asoiaf", "link": "https://en.wikipedia.org/wiki/A_Clash_of_Kings" },
+	{ "label": "Dance with Dragons, A", "file": "dance-with-dragons.jpg", "filters": "book fantasy asoiaf", "link": "https://en.wikipedia.org/wiki/A_Dance_with_Dragons" },
 	{ "label": "Ender's Game", "file": "enders-game.jpg", "filters": "book scifi", "link": "https://en.wikipedia.org/wiki/Ender%27s_Game" },
-	{ "label": "Feast for Crows, A", "file": "feast-for-crows.jpg", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Feast_for_Crows" },
-	{ "label": "Game of Thrones, A", "file": "game-of-thrones-book.jpg", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Game_of_Thrones" },
+	{ "label": "Feast for Crows, A", "file": "feast-for-crows.jpg", "filters": "book fantasy asoiaf", "link": "https://en.wikipedia.org/wiki/A_Feast_for_Crows" },
+	{ "label": "Game of Thrones, A", "file": "game-of-thrones-book.jpg", "filters": "book fantasy asoiaf", "link": "https://en.wikipedia.org/wiki/A_Game_of_Thrones" },
 	{ "label": "Harry Potter - Book Series", "file": "harry-potter-books.png", "filters": "book fantasy ya", "link": "https://en.wikipedia.org/wiki/Harry_Potter" },
 	{ "label": "Hero's Walk, The", "file": "heros-walk.jpg", "filters": "book ss", "link": "https://en.wikipedia.org/wiki/The_Hero%27s_Walk" },
 	{ "label": "Kite Runner, The", "file": "kite-runner.png", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/The_Kite_Runner" },
 	{ "label": "Nineteen Eighty-Four", "file": "nineteen-eighty-four.png", "filters": "book politics ss", "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four" },
 	{ "label": "Sapiens: A Brief History of Humankind", "file": "sapiens-abhoh.png", "filters": "book history nf", "link": "https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind" },
-	{ "label": "Storm of Swrods, A", "file": "storm-of-swords.jpg", "filters": "book fantasy", "link": "https://en.wikipedia.org/wiki/A_Storm_of_Swords" },	
+	{ "label": "Storm of Swords, A", "file": "storm-of-swords.jpg", "filters": "book fantasy asoiaf", "link": "https://en.wikipedia.org/wiki/A_Storm_of_Swords" },	
 	{ "label": "Thousand Splendid Suns, A", "file": "thousand-splendid-suns.png", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/A_Thousand_Splendid_Suns" },
 	{ "label": "To Kill a Mockingbird", "file": "to-kill-a-mockingbird.png", "filters": "book gothic", "link": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird" },
 	{ "label": "Where the Red Fern Grows", "file": "wtrfg.jpg", "filters": "book cl", "link": "https://en.wikipedia.org/wiki/Where_the_Red_Fern_Grows" },
@@ -394,27 +407,8 @@ postersMisc = [
 	{ "label": "Toronto Raptors", "file": "raptors.png", "filters": "sport", "link": "https://en.wikipedia.org/wiki/Toronto_Raptors" },
 ];
 
-filtersGroup = [
-	{ "text": "Book", "filter": "book" },
-	{ "text": "Comic", "filter": "comic" },
-	{ "text": "Misc", "filter": "misc" },
-	{ "text": "Movie", "filter": "movie" },
-	{ "text": "Television", "filter": "tv" },
-	{ "text": "Video Game", "filter": "vg" },
-];
-
 // { "label": "", "file": "
 // ", "filters": "", "link": "" },
-
-filtersUnorg = [
-	{ "text": "Books", "filter": "book" },
-	{ "text": "Comics", "filter": "comic" },
-	{ "text": "Gaming", "filter": "vg" },
-	{ "text": "Misc", "filter": "misc" },
-	{ "text": "Movies", "filter": "movie" },
-	{ "text": "Sports", "filter": "sport" },
-	{ "text": "Tv", "filter": "tv" },
-];
 
 postersUnorg = [
 	{ "label": "Power Rangers Zeo", "file": "power-rangers-zeo.png", "filters": "tv pr", "link": "https://powerrangers.fandom.com/wiki/Power_Rangers_Zeo" },

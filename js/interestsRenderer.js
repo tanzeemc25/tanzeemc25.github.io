@@ -11,41 +11,34 @@ $(function() {
 	}
 
 	// Routing based on GET var
+	var routes = {
+		"bk" : {"posters" : postersBook, "filters" : filtersBook},
+		"co" : {"posters" : postersComic, "filters" : filtersComic},
+		"db" : {"compile" : true, compileFilter : "db"},
+		"dc" : {"compile" : true, compileFilter : "dc"},
+		"hi" : {"compile" : true, compileFilter : "history"},
+		"ml" : {"compile" : true, compileFilter : "marvel"},
+		"mv" : {"posters" : postersMovie, "filters" : filtersTvMovie},
+		"pk" : {"compile" : true, compileFilter : "pokemon"},
+		"pr" : {"compile" : true, compileFilter : "pr"},
+		"sif" : {"compile" : true, compileFilter : "asoiaf"},
+		"sw" : {"compile" : true, compileFilter : "sw"},
+		"tv" : {"posters" : postersTv, "filters" : filtersTvMovie},
+		"vg" : {"posters" : postersVideoGame, "filters" : [], "filterHide" : true},
+	};
+
 	var iType = $_GET['t'];
-	if (iType === 'tv') {
-		posters = postersTv;
-		filtersMain = filtersTvMovie;
-	} else if (iType === 'mv') {
-		posters = postersMovie;
-		filtersMain = filtersTvMovie;
-	} else if (iType === 'co') {
-		posters = postersComic;
-		filtersMain = filtersComic;
-	} else if (iType === 'vg') {
-		posters = postersVideoGame;
-		filtersMain = [];
-		$(".filters").hide();
-	} else if (iType === 'bk') {
-		posters = postersBook;
-		filtersMain = filtersBook;
-	} else if (iType === 'ml') {
-		posters = compilePosters("marvel");
-		filtersMain = filtersGroup;
-	} else if (iType === 'dc') {
-		posters = compilePosters("dc");
-		filtersMain = filtersGroup;
-	} else if (iType === 'pr') {
-		posters = compilePosters("pr");
-		filtersMain = filtersGroup;
-	} else if (iType === 'sw') {
-		posters = compilePosters("sw");
-		filtersMain = filtersGroup;
-	} else if (iType === 'db') {
-		posters = compilePosters("db");
-		filtersMain = filtersGroup;
-	} else if (iType === 'pk') {
-		posters = compilePosters("pokemon");
-		filtersMain = filtersGroup;
+	if (iType in routes) {
+		if (routes[iType].compile) {
+			posters = compilePosters(routes[iType].compileFilter);
+			filtersMain = filtersGroup;
+		} else {
+			posters = routes[iType].posters;
+			filtersMain = routes[iType].filters;
+			if (routes[iType].filterHide) {
+				$(".filters").hide();
+			}
+		}
 	} else {
 		posters = [];
 		filtersMain = [];
