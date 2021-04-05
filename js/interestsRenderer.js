@@ -90,9 +90,9 @@ function appendToGrid(v) {
 	var link = v["link"] == "" ? "javascript:void(0)" : v["link"];
 	var lbl = v["label"]
 
-	var mobileGridWidthNum = 3;
-	var mobileGridTotalPad = 5 * (mobileGridWidthNum + 1);
-	var posterSize = window.mobileCheck() ? (window.innerWidth - mobileGridTotalPad)/mobileGridWidthNum : 200;
+	var gridWidthNum = window.mobileCheck() ? 3 : Math.ceil(window.innerWidth/(200 + 5));
+	var gridTotalPad = 5 * (gridWidthNum + 2);
+	var posterSize = ((window.innerWidth) - gridTotalPad)/gridWidthNum;
 	var textSize = window.mobileCheck() ? "hMobile" : "h4";
 
 	var graphic = '<img src="../img/interests/' + fileName + '" class="posterImg" height="' + posterSize + '" width="' + posterSize + '">';
