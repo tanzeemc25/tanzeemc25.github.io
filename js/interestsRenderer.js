@@ -12,6 +12,7 @@ $(function() {
 
 	// Routing based on GET var
 	var routes = {
+		"ac" : {"compile" : true, compileFilter : "ac"},
 		"bk" : {"posters" : postersBook, "filters" : filtersBook},
 		"co" : {"posters" : postersComic, "filters" : filtersComic},
 		"db" : {"compile" : true, compileFilter : "db"},
@@ -91,7 +92,7 @@ function appendToGrid(v) {
 	var lbl = v["label"]
 
 	var gridWidthNum = window.mobileCheck() ? 3 : Math.ceil(window.innerWidth/(200 + 5));
-	var gridTotalPad = 5 * (gridWidthNum + 2);
+	var gridTotalPad = 5 * (gridWidthNum + (window.mobileCheck() ? 1 : 2));
 	var posterSize = ((window.innerWidth) - gridTotalPad)/gridWidthNum;
 	var textSize = window.mobileCheck() ? "hMobile" : "h4";
 

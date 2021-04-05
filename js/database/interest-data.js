@@ -276,6 +276,7 @@ postersMovie = [
 	{ "label": "300 - Film Series", "file": "300.png", "filters": "movie history ca", "link": "https://en.wikipedia.org/wiki/300_(film)" },
 	{ "label": "Ant-Man Film Series", "file": "antman-film.png", "filters": "movie marvel mcu ca comedy action", "link": "https://en.wikipedia.org/wiki/Ant-Man_(film)" },
 	{ "label": "Aquaman [2018]", "file": "aquaman-film.png", "filters": "dc ca movie action", "link": "https://en.wikipedia.org/wiki/Aquaman_(film)" },
+	{ "label": "Assassin's Creed [2016]", "file": "assassins-creed-movie.jpg", "filters": "movie scifi action adventure ac", "link": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(film)" },
 	{ "label": "Avengers Film Series", "file": "avengers-film.png", "filters": "movie marvel mcu ca action", "link": "https://en.wikipedia.org/wiki/Avengers:_Endgame" },
 	{ "label": "Batman - Tim Burton / Joel Schumacher Film Series", "file": "batman-film-tbjs.png", "filters": "dc movie ca", "link": "https://en.wikipedia.org/wiki/Batman_in_film#Tim_Burton_and_Joel_Schumacher_series_(1989%E2%80%931997)" },
 	{ "label": "Batman v Superman: Dawn of Justice [2016]", "file": "batman-v-superman-film.png", "filters": "dc movie ca", "link": "https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice" },
@@ -362,7 +363,9 @@ postersComic = [
 ];
 
 postersVideoGame = [
-	{ "label": "Assassin's Creed Series", "file": "assassins-creed.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Assassin's_Creed" },
+	{ "label": "Assassin's Creed II", "file": "assassins-creed-ii.jpg", "filters": "vg ac", "link": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_II" },
+	{ "label": "Assassin's Creed III", "file": "assassins-creed-iii.jpg", "filters": "vg ac", "link": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_III" },
+	{ "label": "Assassin's Creed", "file": "assassins-creed.jpg", "filters": "vg ac", "link": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)" },
 	{ "label": "Batman: Arkham Series", "file": "batman-arkham.png", "filters": "vg dc", "link": "https://en.wikipedia.org/wiki/Batman:_Arkham" },
 	{ "label": "Donkey Kong Country", "file": "donkey-kong-country.png", "filters": "vg", "link": "https://en.wikipedia.org/wiki/Donkey_Kong_Country" },
 	{ "label": "Dragon Ball Z: Budokai Tenkaichi Video Game Series", "file": "dragon-ball-z-budokai-tenkaichi.png", "filters": "vg db", "link": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_Budokai_Tenkaichi" },
