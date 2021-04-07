@@ -12,20 +12,20 @@ $(function() {
 
 	// Routing based on GET var
 	var routes = {
-		"ac" : {"compile" : true, compileFilter : "ac"},
-		"bk" : {"posters" : postersBook, "filters" : filtersBook},
-		"co" : {"posters" : postersComic, "filters" : filtersComic},
-		"db" : {"compile" : true, compileFilter : "db"},
-		"dc" : {"compile" : true, compileFilter : "dc"},
-		"hi" : {"compile" : true, compileFilter : "history"},
-		"ml" : {"compile" : true, compileFilter : "marvel"},
-		"mv" : {"posters" : postersMovie, "filters" : filtersTvMovie},
-		"pk" : {"compile" : true, compileFilter : "pokemon"},
-		"pr" : {"compile" : true, compileFilter : "pr"},
-		"sif" : {"compile" : true, compileFilter : "asoiaf"},
-		"sw" : {"compile" : true, compileFilter : "sw"},
-		"tv" : {"posters" : postersTv, "filters" : filtersTvMovie},
-		"vg" : {"posters" : postersVideoGame, "filters" : [], "filterHide" : true},
+		"ac" : {"title": "Assassin's Creed", "compile" : true, compileFilter : "ac"},
+		"bk" : {"title": "Books", "posters" : postersBook, "filters" : filtersBook},
+		"co" : {"title": "Comics", "posters" : postersComic, "filters" : filtersComic},
+		"db" : {"title": "Dragon Ball", "compile" : true, compileFilter : "db"},
+		"dc" : {"title": "DC", "compile" : true, compileFilter : "dc"},
+		"hi" : {"title": "History", "compile" : true, compileFilter : "history"},
+		"ml" : {"title": "Marvel", "compile" : true, compileFilter : "marvel"},
+		"mv" : {"title": "Movies", "posters" : postersMovie, "filters" : filtersTvMovie},
+		"pk" : {"title": "Pokemon", "compile" : true, compileFilter : "pokemon"},
+		"pr" : {"title": "Power Rangers", "compile" : true, compileFilter : "pr"},
+		"sif" : {"title": "Song of Ice and Fire, A", "compile" : true, compileFilter : "asoiaf"},
+		"sw" : {"title": "Star Wars", "compile" : true, compileFilter : "sw"},
+		"tv" : {"title": "Tv", "posters" : postersTv, "filters" : filtersTvMovie},
+		"vg" : {"title": "Video Games", "posters" : postersVideoGame, "filters" : [], "filterHide" : true},
 	};
 
 	var iType = $_GET['t'];
@@ -46,10 +46,16 @@ $(function() {
 		$(".filters").hide();
 	}
 
+
+	// Add title
+	$(".groupTitle").text(routes[iType].title);
+
+	// Add filters
 	$.each(filtersMain, function( i, v ) {
     	appendToFilters(v, "filtersMain");
 	});
 
+	// Add posters
     $.each(posters, function( i, v ) {
     	appendToGrid(v);
 	});
