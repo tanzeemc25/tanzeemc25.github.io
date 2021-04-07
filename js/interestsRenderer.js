@@ -131,7 +131,7 @@ function appendToFilters(v, filterContainerId) {
 
 function compilePosters(f) {
 	var cPosters = [];
-	var groups = [postersTv, postersMovie, postersComic, postersBook, postersVideoGame, postersMisc];
+	var groups = [postersTv, postersMovie, postersComic, postersBook, postersVideoGame, postersPodcast, postersMisc];
 	$.each( groups, function( gk, gv ) {
 		$.each( gv, function( k, v ) {
 			if ($.inArray(f, v.filters.split(" ")) != -1) {

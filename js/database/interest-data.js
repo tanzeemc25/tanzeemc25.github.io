@@ -53,6 +53,7 @@ filtersGroup = [
 	{ "text": "Comic", "filter": "comic" },
 	{ "text": "Misc", "filter": "misc" },
 	{ "text": "Movie", "filter": "movie" },
+	{ "text": "Podcast", "filter": "podcast" },
 	{ "text": "Television", "filter": "tv" },
 	{ "text": "Video Game", "filter": "vg" },
 ];
@@ -401,6 +402,10 @@ postersBook = [
 	{ "label": "Thousand Splendid Suns, A", "file": "thousand-splendid-suns.png", "filters": "book hf", "link": "https://en.wikipedia.org/wiki/A_Thousand_Splendid_Suns" },
 	{ "label": "To Kill a Mockingbird", "file": "to-kill-a-mockingbird.png", "filters": "book gothic", "link": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird" },
 	{ "label": "Where the Red Fern Grows", "file": "wtrfg.jpg", "filters": "book cl", "link": "https://en.wikipedia.org/wiki/Where_the_Red_Fern_Grows" },
+];
+
+postersPodcast = [
+	{ "label": "Fall of Civilizations", "file": "fall-of-civilizations.jpg", "filters": "podcast history", "link": "https://fallofcivilizationspodcast.com/" },
 ];
 
 postersMisc = [
