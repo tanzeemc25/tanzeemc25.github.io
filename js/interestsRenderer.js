@@ -23,6 +23,7 @@ $(function() {
 		"pk" : {"title": "Pokemon", "compile" : true, compileFilter : "pokemon"},
 		"pr" : {"title": "Power Rangers", "compile" : true, compileFilter : "pr"},
 		"sif" : {"title": "Song of Ice and Fire, A", "compile" : true, compileFilter : "asoiaf"},
+		"sm" : {"title": "Super Mario", "compile" : true, compileFilter : "mario"},
 		"sw" : {"title": "Star Wars", "compile" : true, compileFilter : "sw"},
 		"tv" : {"title": "Tv", "posters" : postersTv, "filters" : filtersTvMovie},
 		"vg" : {"title": "Video Games", "posters" : postersVideoGame, "filters" : [], "filterHide" : true},
