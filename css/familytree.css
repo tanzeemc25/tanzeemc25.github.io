@@ -1,0 +1,43 @@
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#searchContainer {
+  display: block; 
+  margin: auto; 
+  width: 400px; 
+  z-index: 1000;
+}
+
+#searchResults {
+  position: absolute; 
+  z-index: 1000; 
+  overflow-y: auto; 
+  width:400px; 
+  max-height: 300px; 
+  background-color: #000;
+}
+
+.searchOption {
+  padding: 5px; 
+  cursor: pointer; 
+  border-bottom: .5px solid darkgray;
+}
+
+.f3 div.card {
+  line-height: 0.9;
+}
+
+#blurb {
+  margin-top: 20px;
+}
+
+p {
+  margin: 2px;
+}
