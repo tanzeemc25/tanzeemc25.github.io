@@ -14,7 +14,7 @@ var interests = [
 	{ "label": "POWER RANGERS", "image": "sq-power-rangers" },
 	{ "label": "PRINCE OF PERSIA", "image": "sq-prince-of-persia" },
 	{ "label": "SONG OF ICE AND FIRE, A", "image": "sq-soiaf" },
-	{ "label": "STAND-UP", "image": "sq-stand-up" },
+//	{ "label": "STAND-UP", "image": "sq-stand-up" },
 	{ "label": "STAR WARS", "image": "sq-star-wars" },
 	{ "label": "SUPER MARIO BROS. / NINTENDO", "image": "sq-super-mario" },
 	{ "label": "TOLKIEN'S LEGENDARIUM", "image": "sq-tolkien" },
