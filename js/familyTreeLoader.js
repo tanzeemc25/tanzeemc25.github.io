@@ -23,8 +23,6 @@ let treeRoot = params.root !== null ? [params.root] : [];
 let family = new FamilyTree(document.getElementById("tree"), {
     orderBy: "sibOrder",
     roots: treeRoot,
-    showXScroll: true,
-    showYScroll: true,
     siblingSeparation: 40,
     template: 'john',
     nodeBinding: {
