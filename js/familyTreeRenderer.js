@@ -1,3 +1,5 @@
+document.getElementById("personCount").innerHTML = ftExport.length;
+
 create(ftExport, false);
 
 /**
